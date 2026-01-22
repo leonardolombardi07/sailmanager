@@ -31,7 +31,7 @@ export const MOCK_PRACTICES: Practice[] = [
       datetime: "2026-01-21T17:30:00Z",
       timezone: "America/Sao_Paulo",
     },
-    classes: ["Laser", "420"],
+    classes: ["ILCA 7", "420"],
     tags: ["Tática", "Velocidade"],
     coachIds: ["coach-1"],
     sailorIds: ["sailor-1", "sailor-2", "sailor-3"],
@@ -78,14 +78,14 @@ export const MOCK_PRACTICES: Practice[] = [
       datetime: "2026-01-20T12:45:00Z",
       timezone: "America/Sao_Paulo",
     },
-    classes: ["Snipe", "Laser"],
+    classes: ["Snipe", "ILCA 7"],
     tags: ["Vento Forte", "Ondas"],
     coachIds: ["coach-2"],
     sailorIds: ["sailor-4", "sailor-5"],
     tunningModelIds: [],
     mediaIds: [],
     metereologySummary: {
-      condition: "stormy",
+      condition: "cloudy",
       temperature: 22,
       feelsLikeTemperature: 20,
       wind: { speed: 22, direction: 90, gust: 28, shift: 5 },
@@ -149,7 +149,7 @@ export const MOCK_PRACTICES: Practice[] = [
     name: "Clínica de Largadas",
     descriptionMarkdown:
       "Treino focado exclusivamente em **procedimentos de largada**. Vamos realizar pelo menos 10 largadas em sequência. Estudar linha de, _favored end_ e aceleração.",
-    rating: null,
+    rating: 3,
     location: {
       place: {
         location: { latitude: -22.9068, longitude: -43.1729 },
@@ -164,8 +164,6 @@ export const MOCK_PRACTICES: Practice[] = [
       datetime: "2026-01-25T12:00:00Z",
       timezone: "America/Sao_Paulo",
     },
-    actualStart: null,
-    actualEnd: null,
     classes: ["49er", "49erFX"],
     tags: ["Largada", "Posicionamento"],
     coachIds: ["coach-3"],
@@ -173,7 +171,7 @@ export const MOCK_PRACTICES: Practice[] = [
     tunningModelIds: [],
     mediaIds: [],
     metereologySummary: {
-      condition: "partly-cloudy", // Forecast
+      condition: "cloudy", // Forecast
       temperature: 27,
       feelsLikeTemperature: 29,
       wind: { speed: 10, direction: 180, gust: 12, shift: 10 },
@@ -186,11 +184,11 @@ export const MOCK_PRACTICES: Practice[] = [
   // 5. Cancelled Practice
   {
     id: "practice-005",
-    status: "cancelled",
+    status: "finished",
     name: "Regata de Percurso Longo",
     descriptionMarkdown:
       "**CANCELADO** devido a alerta de tempestade elétrica severa pela defesa civil. Remarcado para a próxima semana.",
-    rating: null,
+    rating: 3,
     location: {
       place: {
         location: { latitude: -30.1088, longitude: -51.2483 },
@@ -205,16 +203,15 @@ export const MOCK_PRACTICES: Practice[] = [
       datetime: "2026-01-19T16:00:00Z",
       timezone: "America/Sao_Paulo",
     },
-    actualStart: null,
-    actualEnd: null,
-    classes: ["Snipe", "Laser"],
+
+    classes: ["Snipe", "ILCA 7"],
     tags: ["Cancelado"],
     coachIds: ["coach-4"],
     sailorIds: ["sailor-2", "sailor-5"],
     tunningModelIds: [],
     mediaIds: [],
     metereologySummary: {
-      condition: "stormy",
+      condition: "sunny",
       temperature: 19,
       feelsLikeTemperature: 17,
       wind: { speed: 30, direction: 270, gust: 45, shift: 0 },
@@ -254,7 +251,7 @@ export const MOCK_PRACTICES: Practice[] = [
       datetime: "2026-01-17T15:20:00Z",
       timezone: "America/Sao_Paulo",
     },
-    classes: ["Nacra 17", "Kitefoil"],
+    classes: ["Nacra 17", "Formula Kite"],
     tags: ["Foiling", "Speed"],
     coachIds: ["coach-5"],
     sailorIds: ["sailor-10", "sailor-11"],
@@ -301,7 +298,7 @@ export const MOCK_PRACTICES: Practice[] = [
       datetime: "2026-01-21T11:45:00Z",
       timezone: "America/Sao_Paulo",
     },
-    classes: ["Optimist", "Dingue"],
+    classes: ["Optimist"],
     tags: ["Escolinha", "Básico"],
     coachIds: ["coach-6"],
     sailorIds: ["sailor-12", "sailor-13", "sailor-14", "sailor-15"],
@@ -348,14 +345,14 @@ export const MOCK_PRACTICES: Practice[] = [
       datetime: "2026-01-16T17:50:00Z",
       timezone: "America/Sao_Paulo",
     },
-    classes: ["Ocean"],
+    classes: ["A-Class Catamaran"],
     tags: ["Navegação", "Endurance"],
     coachIds: ["coach-7"],
     sailorIds: ["sailor-16"],
     tunningModelIds: [],
     mediaIds: [],
     metereologySummary: {
-      condition: "partly-cloudy",
+      condition: "cloudy",
       temperature: 30,
       feelsLikeTemperature: 33,
       wind: { speed: 15, direction: 90, gust: 18, shift: 0 },
@@ -395,7 +392,7 @@ export const MOCK_PRACTICES: Practice[] = [
       datetime: "2026-01-19T14:30:00Z",
       timezone: "America/Sao_Paulo",
     },
-    classes: ["Laser", "Windsurf"],
+    classes: ["ILCA 7", "Wayfarer"],
     tags: ["Regata", "Competição"],
     coachIds: ["coach-2"],
     sailorIds: ["sailor-1", "sailor-3", "sailor-4"],
@@ -419,7 +416,7 @@ export const MOCK_PRACTICES: Practice[] = [
     name: "Teste de Material Novo",
     descriptionMarkdown:
       "Teste das velas novas da North Sails e ajuste de mastro. Não haverá regatas, apenas _speed test_ em linha reta contra outro barco referência.",
-    rating: null,
+    rating: 3,
     location: {
       place: {
         location: { latitude: -22.9068, longitude: -43.1729 },
@@ -434,8 +431,6 @@ export const MOCK_PRACTICES: Practice[] = [
       datetime: "2026-01-26T16:00:00Z",
       timezone: "America/Sao_Paulo",
     },
-    actualStart: null,
-    actualEnd: null,
     classes: ["470", "420"],
     tags: ["Material", "Speed Test"],
     coachIds: ["coach-1"],

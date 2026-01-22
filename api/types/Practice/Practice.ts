@@ -23,8 +23,8 @@ export type Practice = {
   //
   expectedStart: Datetime;
   expectedEnd: Datetime;
-  actualStart: Datetime;
-  actualEnd: Datetime;
+  actualStart?: Datetime;
+  actualEnd?: Datetime;
   //
   classes: SailingClass[];
   tags: Tag[];
