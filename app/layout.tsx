@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./_layout/ThemeProvider";
 import { APP_NAME } from "./constants";
+import ProgressProvider from "./_layout/ProgressProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,7 +35,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <ProgressProvider>{children}</ProgressProvider>
         </ThemeProvider>
       </body>
     </html>

@@ -1,0 +1,712 @@
+{
+  "slug": "winning-websites",
+  "title": "Award-Winning Marketing Websites",
+  "description": "Turn heads with high-impact landing pages. Use the GSAP animation library to immerse your users in timeline and scroll-based animations. Build 3D image sequences in Blender and animate scenes directly on the canvas element. Create the best experience for everyone by optimizing performance, making adjustments for user motion preferences, and prioritizing accessibility.",
+  "thumbnail": "https://static.frontendmasters.com/assets/courses/2026-01-05-winning-websites/thumb@2x.jpg",
+  "resources": [
+    {
+      "label": "Course Repo",
+      "url": "https://github.com/matiasngf/frontend-masters-course"
+    }
+  ],
+  "instructors": [
+    {
+      "slug": "matias",
+      "name": "Matias Gonzalez",
+      "tagLine": "Vercel",
+      "bio": "Matias is a Design Engineer at Vercel. He started as a graphic designer before shifting into web development where he now blends his knowledge of design and development to create immersive experiences. He is passionate about volunteering, currently helping organize TEDx events. He's always trying to find room to play and experiment with new technologies and is currently obsessed with WebGL.",
+      "imageURL": "https://static.frontendmasters.com/assets/teachers/matias/thumb.png",
+      "socialSettings": {
+        "twitter": "@matiNotFound"
+      }
+    }
+  ],
+  "lessonSlugs": [
+    "introduction",
+    "how-to-experiment",
+    "animating-with-javascript",
+    "css-animations-for-performance",
+    "gsap-animations-timelines",
+    "gsap-scroll-trigger",
+    "follow-scroll",
+    "animating-variable-fonts-with-mouse-events",
+    "passing-state-to-a-css-variable",
+    "debugging-performance-with-react-scan",
+    "custom-cursor-animation-with-lerp",
+    "optimize-requestanimationframe",
+    "snap-effect-on-hover",
+    "display-images-on-a-canvas",
+    "load-images-for-scroll-animation",
+    "animate-an-image-sequence",
+    "create-image-sequence-with-blender",
+    "accessibility-considerations",
+    "prefers-reduced-motion",
+    "optimize-for-gpu-user-agents",
+    "optimize-for-battery-level",
+    "three-js-react-fiber",
+    "animating-3d-scenes",
+    "wrapping-up"
+  ],
+  "lessonData": {
+    "AtqGnsSQHf": {
+      "slug": "optimize-for-battery-level",
+      "title": "Optimize for Battery Level",
+      "description": "Matias adds additional logic to the animation to detect the device's battery level. Since some WebGL or 3D animation can be battery intensive, providing a reduced experience can help save battery life on the device and give the user a better experience.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/21-90.jpg",
+      "index": 20,
+      "elementIndex": 26,
+      "statsId": "AtqGnsSQHf",
+      "hash": "AtqGnsSQHf",
+      "timestamp": "03:51:47 - 04:00:18",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/AtqGnsSQHf",
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "CsMZaNIhXo": {
+      "slug": "three-js-react-fiber",
+      "title": "Three.js \u0026 React Fiber",
+      "description": "Matias introduced Three.js and uses React Fiber to enhance the rendering experience. A basic 3D scene is composed on a canvas element. A point light is also added to illuminate the 3D object.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/22-90.jpg",
+      "index": 21,
+      "elementIndex": 28,
+      "statsId": "CsMZaNIhXo",
+      "hash": "CsMZaNIhXo",
+      "timestamp": "04:00:19 - 04:06:52",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/CsMZaNIhXo",
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "FQDJbDQIVU": {
+      "slug": "gsap-scroll-trigger",
+      "title": "GSAP Scroll Trigger",
+      "description": "Matias demonstrates how scroll-based animations are triggered. GSAP provides a ScrollTrigger plugin, which allows animations to be triggered based on \"start\" and \"end\" regions on the screen. The animation APIs provide designers with granular control over how animations are added and removed as the browser is scrolled.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/6-90.jpg",
+      "index": 5,
+      "elementIndex": 8,
+      "statsId": "FQDJbDQIVU",
+      "hash": "FQDJbDQIVU",
+      "timestamp": "00:59:25 - 01:11:44",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/FQDJbDQIVU",
+      "annotations": [
+        {
+          "id": "FQDJbDQIVU-00:01:06-13",
+          "lessonHash": "FQDJbDQIVU",
+          "range": [42, 52],
+          "message": "Open the `4-scroll-trigger/starter/index.tsx` file to code along with Matias",
+          "category": ""
+        },
+        {
+          "id": "FQDJbDQIVU-00:10:25-14",
+          "lessonHash": "FQDJbDQIVU",
+          "range": [603, 613],
+          "message": "See the [ScrollTrigger Docs](https://gsap.com/docs/v3/Plugins/ScrollTrigger/) for alternate start/end values",
+          "category": ""
+        }
+      ],
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "GgiXnagPog": {
+      "slug": "display-images-on-a-canvas",
+      "title": "Display Images on a Canvas",
+      "description": "Matias discusses the process of animating a sequence of images. Image sequences are more performant than videos because they can animate forward or backward. The images are drawn on a canvas element to improve performance.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/14-90.jpg",
+      "index": 13,
+      "elementIndex": 18,
+      "statsId": "GgiXnagPog",
+      "hash": "GgiXnagPog",
+      "timestamp": "02:20:15 - 02:35:05",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/GgiXnagPog",
+      "annotations": [
+        {
+          "id": "GgiXnagPog-00:01:27-21",
+          "lessonHash": "GgiXnagPog",
+          "range": [96, 106],
+          "message": "You'll learn how to create an image sequence in Blender later in the course",
+          "category": ""
+        },
+        {
+          "id": "GgiXnagPog-00:02:55-22",
+          "lessonHash": "GgiXnagPog",
+          "range": [148, 158],
+          "message": "Open the `8-image-sequence/starter/index.tsx` file to code along with Matias",
+          "category": ""
+        }
+      ],
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "GyFiqSHgST": {
+      "slug": "introduction",
+      "title": "Introduction",
+      "description": "Matias Gonzalez begins the course by highlighting the roles a client, designer, developer, and AI agent play in the web development process. He also shares a recent project he created, along with his process from idea to implementation.\r\n - Course Repo: https://github.com/matiasngf/frontend-masters-course",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/1-90.jpg",
+      "index": 0,
+      "elementIndex": 1,
+      "statsId": "GyFiqSHgST",
+      "hash": "GyFiqSHgST",
+      "timestamp": "00:00:00 - 00:06:08",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/GyFiqSHgST",
+      "hasAssessment": false,
+      "hasReview": false
+    },
+    "IeKiYWdUkw": {
+      "slug": "optimize-requestanimationframe",
+      "title": "Optimize requestAnimationFrame",
+      "description": "Matias explains that using requestAnimationFrame can lead to performance issues when additional callbacks are added. The GSAP library provides a \"tick\" method that contains a global call to requestAnimationFrame. Through the add/remove API methods, custom functions can be added and removed to the global requestAnimationCall, eliminating the need for additional requests.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/12-90.jpg",
+      "index": 11,
+      "elementIndex": 16,
+      "statsId": "IeKiYWdUkw",
+      "hash": "IeKiYWdUkw",
+      "timestamp": "02:01:27 - 02:06:16",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/IeKiYWdUkw",
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "NHcuSonOEj": {
+      "slug": "how-to-experiment",
+      "title": "How to Experiment",
+      "description": "Matias recommends creating a companion project for experimenting. This project allows for ideas and iteration without affecting the production code. The course project is provided and contains 11 separate starter projects and solutions for each.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/2-90.jpg",
+      "index": 1,
+      "elementIndex": 2,
+      "statsId": "NHcuSonOEj",
+      "hash": "NHcuSonOEj",
+      "timestamp": "00:06:09 - 00:11:26",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/NHcuSonOEj",
+      "annotations": [
+        {
+          "id": "NHcuSonOEj-00:03:09-1",
+          "lessonHash": "NHcuSonOEj",
+          "range": [183, 193],
+          "message": "Here's a link to [the course repo](https://github.com/matiasngf/frontend-masters-course)",
+          "category": ""
+        },
+        {
+          "id": "NHcuSonOEj-00:05:24-3",
+          "lessonHash": "NHcuSonOEj",
+          "range": [251, 261],
+          "message": "Clone [the repo](https://github.com/matiasngf/frontend-masters-course) and run `pnpm i` or `npm i`",
+          "category": ""
+        }
+      ],
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "RFaQbGQQks": {
+      "slug": "animating-variable-fonts-with-mouse-events",
+      "title": "Animating Variable Fonts with Mouse Events",
+      "description": "Matias demonstrates the flexibility of web font weights and explains why designers might want to animate the font-weight CSS property dynamically. He uses the useEffect hook to track the mouse position and update a CSS variable based on the distance the mouse is from the center of the screen.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/8-90.jpg",
+      "index": 7,
+      "elementIndex": 11,
+      "statsId": "RFaQbGQQks",
+      "hash": "RFaQbGQQks",
+      "timestamp": "01:25:59 - 01:37:08",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/RFaQbGQQks",
+      "annotations": [
+        {
+          "id": "RFaQbGQQks-00:00:52-17",
+          "lessonHash": "RFaQbGQQks",
+          "range": [34, 44],
+          "message": "Here's a link to [Roboto on Google Fonts](https://fonts.google.com/specimen/Roboto)",
+          "category": ""
+        },
+        {
+          "id": "RFaQbGQQks-00:01:47-18",
+          "lessonHash": "RFaQbGQQks",
+          "range": [183, 193],
+          "message": "Open the `6-variables/starter/index.tsx` file to code along with Matias",
+          "category": ""
+        }
+      ],
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "SSIieBvlNP": {
+      "slug": "css-animations-for-performance",
+      "title": "CSS Animations for Performance",
+      "description": "Matias implements a CSS-only version of the text animation. The advantage of using pure-CSS animations is improved performance and better Lighthouse scores, as the animation doesn't rely on JavaScript. The disadvantage is control and capabilities",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/4-90.jpg",
+      "index": 3,
+      "elementIndex": 5,
+      "statsId": "SSIieBvlNP",
+      "hash": "SSIieBvlNP",
+      "timestamp": "00:27:29 - 00:43:25",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/SSIieBvlNP",
+      "annotations": [
+        {
+          "id": "SSIieBvlNP-00:01:34-9",
+          "lessonHash": "SSIieBvlNP",
+          "range": [89, 99],
+          "message": "Open the `2-css-version/starter/index.tsx` file to code along with Matias",
+          "category": ""
+        },
+        {
+          "id": "SSIieBvlNP-00:08:09-10",
+          "lessonHash": "SSIieBvlNP",
+          "range": [481, 491],
+          "message": "`cubic-bezier(0, 0.55, 0.45, 1)`",
+          "category": ""
+        },
+        {
+          "id": "SSIieBvlNP-00:21:18-11",
+          "lessonHash": "SSIieBvlNP",
+          "range": [844, 854],
+          "message": "Here's a link to the [sibling-index documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/sibling-index)",
+          "category": ""
+        }
+      ],
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "TOuHuqRpKL": {
+      "slug": "gsap-animations-timelines",
+      "title": "GSAP Animations Timelines",
+      "description": "Matias introduces GSAP Timelines. When an animation involves multiple moving elements, managing delays and offsets can be a challenging task. Timelines enable the composition of animation sequences, allowing subsequent animations to be triggered when a previous animation completes.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/5-90.jpg",
+      "index": 4,
+      "elementIndex": 7,
+      "statsId": "TOuHuqRpKL",
+      "hash": "TOuHuqRpKL",
+      "timestamp": "00:43:26 - 00:59:24",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/TOuHuqRpKL",
+      "annotations": [
+        {
+          "id": "TOuHuqRpKL-00:00:24-12",
+          "lessonHash": "TOuHuqRpKL",
+          "range": [24, 34],
+          "message": "Open the `3-timelines/starter.tsx` file to code along with Matias",
+          "category": ""
+        }
+      ],
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "TprcaHAIOp": {
+      "slug": "wrapping-up",
+      "title": "Wrapping Up",
+      "description": "Matias wraps up by sharing links to several of the libraries and tools used throughout the course.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/24-90.jpg",
+      "index": 23,
+      "elementIndex": 31,
+      "statsId": "TprcaHAIOp",
+      "hash": "TprcaHAIOp",
+      "timestamp": "04:18:06 - 04:18:36",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/TprcaHAIOp",
+      "annotations": [
+        {
+          "id": "TprcaHAIOp-00:00:07-30",
+          "lessonHash": "TprcaHAIOp",
+          "range": [6, 16],
+          "message": "You can find these links in [the README](https://github.com/matiasngf/frontend-masters-course)",
+          "category": ""
+        }
+      ],
+      "hasAssessment": false,
+      "hasReview": false
+    },
+    "VyAojhOQwD": {
+      "slug": "debugging-performance-with-react-scan",
+      "title": "Debugging Performance with React Scan",
+      "description": "Matias uses React Scan to analyze rerenders that occur in the application. He reduces unnecessary rerenders by refactoring the application and removing the calls to setState in favor of directly updating the property through a Ref.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/10-90.jpg",
+      "index": 9,
+      "elementIndex": 13,
+      "statsId": "VyAojhOQwD",
+      "hash": "VyAojhOQwD",
+      "timestamp": "01:41:48 - 01:47:20",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/VyAojhOQwD",
+      "annotations": [
+        {
+          "id": "VyAojhOQwD-00:00:20-19",
+          "lessonHash": "VyAojhOQwD",
+          "range": [20, 30],
+          "message": "Here's a link to [React Scan](https://react-scan.com/)",
+          "category": ""
+        }
+      ],
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "YwkaQXqJhZ": {
+      "slug": "animating-3d-scenes",
+      "title": "Animating 3D Scenes",
+      "description": "Matias uses GSAP to animate the position, rotation, and lighting of the Three.js object. Since GSAP can animate any numeric property, composing animated 3D scenes is easy with the GSAP timeline API.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/23-90.jpg",
+      "index": 22,
+      "elementIndex": 29,
+      "statsId": "YwkaQXqJhZ",
+      "hash": "YwkaQXqJhZ",
+      "timestamp": "04:06:53 - 04:18:05",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/YwkaQXqJhZ",
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "cEaUvlLIei": {
+      "slug": "snap-effect-on-hover",
+      "title": "Snap Effect on Hover",
+      "description": "Matias adds a snap effect when the \"Start\" text is hovered. A state property is added to manage whether or not the mouse cursor div should snap to the center position. If the \"Start\" text is hovered, the div will use the same Lerp animation effect to resize and snap to the center position.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/13-90.jpg",
+      "index": 12,
+      "elementIndex": 17,
+      "statsId": "cEaUvlLIei",
+      "hash": "cEaUvlLIei",
+      "timestamp": "02:06:17 - 02:20:14",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/cEaUvlLIei",
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "fNkhBZHkOv": {
+      "slug": "load-images-for-scroll-animation",
+      "title": "Load Images for Scroll Animation",
+      "description": "Matias loads all the images required for the image sequence animation. Each image is loaded into an HTML \u003cimg\u003e element but not added to the DOM or canvas element yet. They are stored in an array and will be drawn to the canvas as the user scrolls the page.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/15-90.jpg",
+      "index": 14,
+      "elementIndex": 19,
+      "statsId": "fNkhBZHkOv",
+      "hash": "fNkhBZHkOv",
+      "timestamp": "02:35:06 - 02:44:25",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/fNkhBZHkOv",
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "jwrwKtkkDi": {
+      "slug": "passing-state-to-a-css-variable",
+      "title": "Passing State to a CSS Variable",
+      "description": "Matias adds state management ot the application for tracking/updating the distance value. This state is passed down to the CSS property using the setProperty method to apply the font weight change to the text.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/9-90.jpg",
+      "index": 8,
+      "elementIndex": 12,
+      "statsId": "jwrwKtkkDi",
+      "hash": "jwrwKtkkDi",
+      "timestamp": "01:37:09 - 01:41:47",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/jwrwKtkkDi",
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "lADrMKFmWY": {
+      "slug": "animate-an-image-sequence",
+      "title": "Animate an Image Sequence",
+      "description": "Matias animates the image sequence by reading the scroll position and interpolating that value to the corresponding image number. For example, when the page is scrolled to 50%, the middle image of the sequence will be displayed.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/16-90.jpg",
+      "index": 15,
+      "elementIndex": 20,
+      "statsId": "lADrMKFmWY",
+      "hash": "lADrMKFmWY",
+      "timestamp": "02:44:26 - 02:59:34",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/lADrMKFmWY",
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "lPGbxluVqG": {
+      "slug": "follow-scroll",
+      "title": "Follow Scroll",
+      "description": "Matias creates a new ScrollTrigger-based animation that animates at the rate of scrolling. The element is pinned to the center of the screen so it doesn't scroll off the page.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/7-90.jpg",
+      "index": 6,
+      "elementIndex": 9,
+      "statsId": "lPGbxluVqG",
+      "hash": "lPGbxluVqG",
+      "timestamp": "01:11:45 - 01:25:58",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/lPGbxluVqG",
+      "annotations": [
+        {
+          "id": "lPGbxluVqG-00:00:45-15",
+          "lessonHash": "lPGbxluVqG",
+          "range": [45, 55],
+          "message": "Open the `5-follow-scroll/starter/index.tsx` file to code along with Matias",
+          "category": ""
+        },
+        {
+          "id": "lPGbxluVqG-00:18:28-16",
+          "lessonHash": "lPGbxluVqG",
+          "range": [429, 439],
+          "message": "Here's a link to [Leva](https://github.com/pmndrs/leva)",
+          "category": ""
+        }
+      ],
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "mkiAcLsgYx": {
+      "slug": "prefers-reduced-motion",
+      "title": "Prefers Reduced Motion",
+      "description": "Matias refactors the animation to accommodate the user's motion preference. The prefers-reduced-motion media query is added, giving the user the ability to experience the page without the scroll-based animation. When prefers-reduced-motion is enabled, the content appears stacked on the page in its natural scroll position.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/19-90.jpg",
+      "index": 18,
+      "elementIndex": 24,
+      "statsId": "mkiAcLsgYx",
+      "hash": "mkiAcLsgYx",
+      "timestamp": "03:22:36 - 03:39:43",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/mkiAcLsgYx",
+      "annotations": [
+        {
+          "id": "mkiAcLsgYx-00:01:46-28",
+          "lessonHash": "mkiAcLsgYx",
+          "range": [99, 109],
+          "message": "Open the `9-reduced-motion/starter/index.tsx` file to code along with Matias",
+          "category": ""
+        }
+      ],
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "pdvJItsZUE": {
+      "slug": "animating-with-javascript",
+      "title": "Animating with JavaScript",
+      "description": "Matias introduces the GSAP animation library. GSAP provides APIs for animating properties of DOM elements. The SplitText module is used to separate text into individual characters, allowing them to be animated independently.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/3-90.jpg",
+      "index": 2,
+      "elementIndex": 4,
+      "statsId": "pdvJItsZUE",
+      "hash": "pdvJItsZUE",
+      "timestamp": "00:11:27 - 00:27:28",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/pdvJItsZUE",
+      "annotations": [
+        {
+          "id": "pdvJItsZUE-00:00:07-4",
+          "lessonHash": "pdvJItsZUE",
+          "range": [7, 17],
+          "message": "Here's a link to [GSAP](https://gsap.com/)",
+          "category": ""
+        },
+        {
+          "id": "pdvJItsZUE-00:00:32-5",
+          "lessonHash": "pdvJItsZUE",
+          "range": [27, 37],
+          "message": "Open the `/src/app/(experiments)/1-gsap-basics/starter.tsx` file to code along with Matias",
+          "category": ""
+        },
+        {
+          "id": "pdvJItsZUE-00:12:49-6",
+          "lessonHash": "pdvJItsZUE",
+          "range": [712, 722],
+          "message": "Here's a link to [easings.net](https://easings.net/)",
+          "category": ""
+        },
+        {
+          "id": "pdvJItsZUE-00:14:41-7",
+          "lessonHash": "pdvJItsZUE",
+          "range": [730, 740],
+          "message": "Code along with Matias or check out the `solution.tsx` file in the project",
+          "category": ""
+        },
+        {
+          "id": "pdvJItsZUE-00:16:53-8",
+          "lessonHash": "pdvJItsZUE",
+          "range": [943, 953],
+          "message": "The final solution can be found in `1-gsap-basics/solution.txt`",
+          "category": ""
+        }
+      ],
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "qdMTDcLJei": {
+      "slug": "accessibility-considerations",
+      "title": "Accessibility Considerations",
+      "description": "Matias emphasises the importance of creating animations that are accessible and cater to the user's preferences. Accessibility includes ensuring that text is high-contrast, images contain alternative text, and animations are removed to avoid motion sickness, while still allowing the user to navigate and experience the site using their preferred method.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/18-90.jpg",
+      "index": 17,
+      "elementIndex": 23,
+      "statsId": "qdMTDcLJei",
+      "hash": "qdMTDcLJei",
+      "timestamp": "03:14:52 - 03:22:35",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/qdMTDcLJei",
+      "annotations": [
+        {
+          "id": "qdMTDcLJei-00:02:05-26",
+          "lessonHash": "qdMTDcLJei",
+          "range": [114, 124],
+          "message": "Here's a link to [Radix](https://www.radix-ui.com/)",
+          "category": ""
+        },
+        {
+          "id": "qdMTDcLJei-00:05:22-27",
+          "lessonHash": "qdMTDcLJei",
+          "range": [294, 304],
+          "message": "Dive deeper into Accessibility with our [Accessibility Courses](https://frontendmasters.com/topics/accessibility/)",
+          "category": ""
+        }
+      ],
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "xLrXeGgaer": {
+      "slug": "optimize-for-gpu-user-agents",
+      "title": "Optimize for GPU \u0026 User Agents",
+      "description": "Matias discusses techniques for adjusting animations based on device capabilities. For lower-powered devices, a different experience can be provided. Matias adds libraries for detecting the power of the GPU, along with which browser is used.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/20-90.jpg",
+      "index": 19,
+      "elementIndex": 25,
+      "statsId": "xLrXeGgaer",
+      "hash": "xLrXeGgaer",
+      "timestamp": "03:39:44 - 03:51:46",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/xLrXeGgaer",
+      "annotations": [
+        {
+          "id": "xLrXeGgaer-00:01:07-29",
+          "lessonHash": "xLrXeGgaer",
+          "range": [67, 77],
+          "message": "Open the `10-device-profiling/starter/index.tsx` file to code along with Matias",
+          "category": ""
+        }
+      ],
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "yYVTisGzMl": {
+      "slug": "create-image-sequence-with-blender",
+      "title": "Create Image Sequence with Blender",
+      "description": "Matias demonstrates how the images in the animation were created using Blender. A 3D model is downloaded and added to the scene in Blender. A camera and lighting is added, and the camera position is animated in the timeline. When the animation is complete, a sequence of images is exported from Blender and added to the project.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/17-90.jpg",
+      "index": 16,
+      "elementIndex": 21,
+      "statsId": "yYVTisGzMl",
+      "hash": "yYVTisGzMl",
+      "timestamp": "02:59:35 - 03:14:51",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/yYVTisGzMl",
+      "annotations": [
+        {
+          "id": "yYVTisGzMl-00:00:14-23",
+          "lessonHash": "yYVTisGzMl",
+          "range": [14, 24],
+          "message": "Here's a link to the model on [Sketch Fab](https://sketchfab.com/3d-models/perseverance-nasa-mars-landing-2021-c1c94e1f69df45eeae4a0a1d0d27e85b)",
+          "category": ""
+        },
+        {
+          "id": "yYVTisGzMl-00:00:54-24",
+          "lessonHash": "yYVTisGzMl",
+          "range": [48, 58],
+          "message": "You don't have to follow these steps, but if you are interested, here's a link to [Blender](https://www.blender.org/)",
+          "category": ""
+        },
+        {
+          "id": "yYVTisGzMl-00:12:54-25",
+          "lessonHash": "yYVTisGzMl",
+          "range": [664, 674],
+          "message": "You can find this command [in the README](https://github.com/matiasngf/frontend-masters-course)",
+          "category": ""
+        }
+      ],
+      "hasAssessment": true,
+      "hasReview": true
+    },
+    "znthVyPFfj": {
+      "slug": "custom-cursor-animation-with-lerp",
+      "title": "Custom Cursor Animation with Lerp",
+      "description": "Matias creates a custom cursor animation. A div element follows the course, but uses a Lerp animation technique to animate to the new position each time the cursor moves. This adds easing to the animation and creates a \"follow\" effect.",
+      "thumbnail": "https://static.frontendmasters.com/thumb/savage-a/2026/01/05/11-90.jpg",
+      "index": 10,
+      "elementIndex": 15,
+      "statsId": "znthVyPFfj",
+      "hash": "znthVyPFfj",
+      "timestamp": "01:47:21 - 02:01:26",
+      "sourceBase": "https://api.frontendmasters.com/v1/kabuki/video/znthVyPFfj",
+      "annotations": [
+        {
+          "id": "znthVyPFfj-00:00:39-20",
+          "lessonHash": "znthVyPFfj",
+          "range": [34, 44],
+          "message": "Open the `7-custom-cursor/starter/index.tsx` file to code along with Matias",
+          "category": ""
+        }
+      ],
+      "hasAssessment": true,
+      "hasReview": true
+    }
+  },
+  "lessonElements": [
+    {
+      "title": "Introduction",
+      "duration": "11m 25s"
+    },
+    0,
+    1,
+    {
+      "title": "GSAP Basics",
+      "duration": "31m 57s"
+    },
+    2,
+    3,
+    {
+      "title": "Timelines and Scroll Trigger",
+      "duration": "42m 30s"
+    },
+    4,
+    5,
+    6,
+    {
+      "title": "Creating a Mouse Effect",
+      "duration": "21m 19s"
+    },
+    7,
+    8,
+    9,
+    {
+      "title": "Combining Multiple Effects",
+      "duration": "1h 27m 24s"
+    },
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    {
+      "title": "Accessibility",
+      "duration": "45m 23s"
+    },
+    17,
+    18,
+    19,
+    20,
+    {
+      "title": "Three.js",
+      "duration": "17m 45s"
+    },
+    21,
+    22,
+    {
+      "title": "Wrapping Up",
+      "duration": "30s"
+    },
+    23
+  ],
+  "lessonHashes": [
+    "GyFiqSHgST",
+    "NHcuSonOEj",
+    "pdvJItsZUE",
+    "SSIieBvlNP",
+    "TOuHuqRpKL",
+    "FQDJbDQIVU",
+    "lPGbxluVqG",
+    "RFaQbGQQks",
+    "jwrwKtkkDi",
+    "VyAojhOQwD",
+    "znthVyPFfj",
+    "IeKiYWdUkw",
+    "cEaUvlLIei",
+    "GgiXnagPog",
+    "fNkhBZHkOv",
+    "lADrMKFmWY",
+    "yYVTisGzMl",
+    "qdMTDcLJei",
+    "mkiAcLsgYx",
+    "xLrXeGgaer",
+    "AtqGnsSQHf",
+    "CsMZaNIhXo",
+    "YwkaQXqJhZ",
+    "TprcaHAIOp"
+  ],
+  "isTrial": false,
+  "hasReview": true,
+  "hasHLS": true,
+  "hasTranscript": true,
+  "hasIntroLoop": false,
+  "hasWebVTT": true,
+  "datePublished": "2026-01-05"
+}

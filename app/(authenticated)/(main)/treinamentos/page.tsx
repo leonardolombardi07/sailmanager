@@ -14,7 +14,7 @@ export default async function Page() {
 
   return (
     <div className="pt-4">
-      <div className="px-4 py-2 sm:px-8">
+      <div className="px-4 py-2">
         <h1 className="text-2xl font-bold">Treinamentos</h1>
       </div>
 

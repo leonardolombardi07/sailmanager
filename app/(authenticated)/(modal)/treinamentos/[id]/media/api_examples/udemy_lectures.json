@@ -1,0 +1,3392 @@
+{
+  "count": 140,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "_class": "chapter",
+      "id": 5508206,
+      "sort_order": 141,
+      "title": "The Basics of Microfrontends",
+      "is_published": true,
+      "object_index": 1
+    },
+    {
+      "_class": "lecture",
+      "id": 24615508,
+      "title": "Join Our Community!",
+      "created": "2021-01-27T21:08:41Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 56507898,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 7
+      },
+      "sort_order": 140,
+      "object_index": 1,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 33583770,
+      "title": "Course Resources",
+      "created": "2022-08-19T16:40:06Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 43150386,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 38
+      },
+      "sort_order": 139,
+      "object_index": 2,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 43150424,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "mfe-diagrams.zip",
+          "title": "mfe-diagrams.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206792,
+      "title": "What is a Microfrontend?",
+      "created": "2020-11-08T23:56:52Z",
+      "is_published": true,
+      "is_free": true,
+      "asset": {
+        "_class": "asset",
+        "id": 29117194,
+        "asset_type": "Video",
+        "title": "002_-_mfe_-_What_is_a_Microfrontend.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "002-mfe-What-is-a-Microfrontend.mp4",
+        "time_estimation": 287
+      },
+      "sort_order": 138,
+      "object_index": 3,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23206798,
+      "title": "Application Overview",
+      "created": "2020-11-08T23:57:03Z",
+      "is_published": true,
+      "is_free": true,
+      "asset": {
+        "_class": "asset",
+        "id": 29117222,
+        "asset_type": "Video",
+        "title": "003_-_mfe_-_Application_Overview.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "003-mfe-Application-Overview.mp4",
+        "time_estimation": 172
+      },
+      "sort_order": 137,
+      "object_index": 4,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23206806,
+      "title": "Understanding Build-Time Integration",
+      "created": "2020-11-08T23:57:54Z",
+      "is_published": true,
+      "is_free": true,
+      "asset": {
+        "_class": "asset",
+        "id": 29117228,
+        "asset_type": "Video",
+        "title": "004_-_mfe_-_Understanding_Build-Time_Integration.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "004-mfe-Understanding-Build-Time-Integration.mp4",
+        "time_estimation": 239
+      },
+      "sort_order": 136,
+      "object_index": 5,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23206808,
+      "title": "A Run-Time Integration",
+      "created": "2020-11-08T23:58:03Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117232,
+        "asset_type": "Video",
+        "title": "005_-_mfe_-_NOTE_A_A_Build-Time_Integration.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "005-mfe-NOTE-A-A-Build-Time-Integration.mp4",
+        "time_estimation": 179
+      },
+      "sort_order": 135,
+      "object_index": 6,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "quiz",
+      "id": 5063914,
+      "title": "Build-Time vs Run-Time Integrations",
+      "type": "simple-quiz",
+      "is_published": true,
+      "sort_order": 134,
+      "object_index": 1
+    },
+    {
+      "_class": "lecture",
+      "id": 50397385,
+      "title": "Project Setup",
+      "created": "2025-05-21T21:07:45Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 65319669,
+        "asset_type": "Video",
+        "title": "006-mfe-initial-project-setup.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "006-mfe-initial-project-setup.mp4",
+        "time_estimation": 67
+      },
+      "sort_order": 132,
+      "object_index": 7,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 50417315,
+      "title": "Starter Project Files",
+      "created": "2025-05-22T18:50:53Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 65344621,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 28
+      },
+      "sort_order": 131,
+      "object_index": 8,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 65344459,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "ecomm-boilerplate.zip",
+          "title": "ecomm-boilerplate.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206816,
+      "title": "Generating Products",
+      "created": "2020-11-08T23:58:27Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117186,
+        "asset_type": "Video",
+        "title": "007_-_mfe_-_Generating_Products.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "007-mfe-Generating-Products.mp4",
+        "time_estimation": 158
+      },
+      "sort_order": 130,
+      "object_index": 9,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52173190,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "9-generating.zip",
+          "title": "9-generating.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206820,
+      "title": "Some Background on Webpack",
+      "created": "2020-11-08T23:58:37Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117170,
+        "asset_type": "Video",
+        "title": "008_-_mfe_-_Some_Background_on_Webpack.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "008-mfe-Some-Background-on-Webpack.mp4",
+        "time_estimation": 337
+      },
+      "sort_order": 129,
+      "object_index": 10,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23206822,
+      "title": "A Touch More on Webpack",
+      "created": "2020-11-08T23:58:47Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117174,
+        "asset_type": "Video",
+        "title": "009_-_mfe_-_A_Touch_More_on_Webpack.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "009-mfe-A-Touch-More-on-Webpack.mp4",
+        "time_estimation": 423
+      },
+      "sort_order": 128,
+      "object_index": 11,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52173194,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "11-touch.zip",
+          "title": "11-touch.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206824,
+      "title": "Finishing the Product List",
+      "created": "2020-11-08T23:58:59Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117168,
+        "asset_type": "Video",
+        "title": "010_-_mfe_-_Finishing_the_Product_List.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "010-mfe-Finishing-the-Product-List.mp4",
+        "time_estimation": 88
+      },
+      "sort_order": 127,
+      "object_index": 12,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52173198,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "12-finishing.zip",
+          "title": "12-finishing.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 50417307,
+      "title": "Scaffolding the Container",
+      "created": "2025-05-22T18:49:12Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 65343769,
+        "asset_type": "Video",
+        "title": "011-mfe-scaffolding-container.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "011-mfe-scaffolding-container.mp4",
+        "time_estimation": 275
+      },
+      "sort_order": 125,
+      "object_index": 13,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "chapter",
+      "id": 5555944,
+      "sort_order": 124,
+      "title": "The Basics of Module Federation",
+      "is_published": true,
+      "object_index": 2
+    },
+    {
+      "_class": "lecture",
+      "id": 23206832,
+      "title": "Implementing Module Federation",
+      "created": "2020-11-08T23:59:20Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117160,
+        "asset_type": "Video",
+        "title": "012_-_mfe_-_Implementing_Module_Federation.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "012-mfe-Implementing-Module-Federation.mp4",
+        "time_estimation": 491
+      },
+      "sort_order": 123,
+      "object_index": 14,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52173202,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "15-implementing.zip",
+          "title": "15-implementing.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206838,
+      "title": "Understanding Module Federation",
+      "created": "2020-11-08T23:59:54Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117158,
+        "asset_type": "Video",
+        "title": "013_-_mfe_-_Understanding_Module_Federation.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "013-mfe-Understanding-Module-Federation.mp4",
+        "time_estimation": 348
+      },
+      "sort_order": 122,
+      "object_index": 15,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23206842,
+      "title": "More on Module Federation",
+      "created": "2020-11-09T00:00:03Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117156,
+        "asset_type": "Video",
+        "title": "014_-_mfe_-_NOTE_B_More_on_Module_Federation.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "014-mfe-NOTE-B-More-on-Module-Federation.mp4",
+        "time_estimation": 370
+      },
+      "sort_order": 121,
+      "object_index": 16,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "quiz",
+      "id": 5065072,
+      "title": "Module Federation Terminology",
+      "type": "simple-quiz",
+      "is_published": true,
+      "sort_order": 120,
+      "object_index": 2
+    },
+    {
+      "_class": "lecture",
+      "id": 23206844,
+      "title": "Understanding Configuration Options",
+      "created": "2020-11-09T00:00:12Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117162,
+        "asset_type": "Video",
+        "title": "015_-_mfe_-_Understanding_Configuration_Options.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "015-mfe-Understanding-Configuration-Options.mp4",
+        "time_estimation": 509
+      },
+      "sort_order": 119,
+      "object_index": 17,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23206848,
+      "title": "Scaffolding the Cart",
+      "created": "2020-11-09T00:00:19Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117164,
+        "asset_type": "Video",
+        "title": "016_-_mfe_-_Scaffolding_the_Cart.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "016-mfe-Scaffolding-the-Cart.mp4",
+        "time_estimation": 404
+      },
+      "sort_order": 118,
+      "object_index": 18,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52173224,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "19-scaffolding.zip",
+          "title": "19-scaffolding.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206850,
+      "title": "Cart Integration",
+      "created": "2020-11-09T00:00:27Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117150,
+        "asset_type": "Video",
+        "title": "017_-_mfe_-_Cart_Integration.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "017-mfe-Cart-Integration.mp4",
+        "time_estimation": 197
+      },
+      "sort_order": 117,
+      "object_index": 19,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52173230,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "20-cart-integration.zip",
+          "title": "20-cart-integration.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206856,
+      "title": "The Development Process",
+      "created": "2020-11-09T00:00:42Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117144,
+        "asset_type": "Video",
+        "title": "018_-_mfe_-_The_Development_Process.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "018-mfe-The-Development-Process.mp4",
+        "time_estimation": 187
+      },
+      "sort_order": 116,
+      "object_index": 20,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "chapter",
+      "id": 5555946,
+      "sort_order": 115,
+      "title": "Sharing Dependencies Between Apps",
+      "is_published": true,
+      "object_index": 3
+    },
+    {
+      "_class": "lecture",
+      "id": 23206860,
+      "title": "Using Shared Modules",
+      "created": "2020-11-09T00:00:50Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117142,
+        "asset_type": "Video",
+        "title": "019_-_mfe_-_Using_Shared_Modules.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "019-mfe-Using-Shared-Modules.mp4",
+        "time_estimation": 351
+      },
+      "sort_order": 114,
+      "object_index": 21,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52173236,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "22-using.zip",
+          "title": "22-using.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206866,
+      "title": "Async Script Loading",
+      "created": "2020-11-09T00:01:17Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117172,
+        "asset_type": "Video",
+        "title": "020_-_mfe_-_Async_Script_Loading.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "020-mfe-Async-Script-Loading.mp4",
+        "time_estimation": 240
+      },
+      "sort_order": 113,
+      "object_index": 22,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52173240,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "23-async.zip",
+          "title": "23-async.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206874,
+      "title": "Shared Module Versioning",
+      "created": "2020-11-09T00:01:27Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117134,
+        "asset_type": "Video",
+        "title": "021_-_mfe_-_Shared_Module_Versioning.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "021-mfe-Shared-Module-Versioning.mp4",
+        "time_estimation": 274
+      },
+      "sort_order": 112,
+      "object_index": 23,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23206878,
+      "title": "Singleton Loading",
+      "created": "2020-11-09T00:01:35Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117140,
+        "asset_type": "Video",
+        "title": "022_-_mfe_-_Singleton_Loading.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "022-mfe-Singleton-Loading.mp4",
+        "time_estimation": 291
+      },
+      "sort_order": 111,
+      "object_index": 24,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52173244,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "25-singleton.zip",
+          "title": "25-singleton.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206880,
+      "title": "Sub-App Execution Context",
+      "created": "2020-11-09T00:01:46Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117130,
+        "asset_type": "Video",
+        "title": "023_-_mfe_-_Sub-App_Execution_Context.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "023-mfe-Sub-App-Execution-Context.mp4",
+        "time_estimation": 301
+      },
+      "sort_order": 110,
+      "object_index": 25,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52173248,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "26-sub-app.zip",
+          "title": "26-sub-app.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206884,
+      "title": "Refactoring Products",
+      "created": "2020-11-09T00:02:01Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117124,
+        "asset_type": "Video",
+        "title": "024_-_mfe_-_Refactoring_Products.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "024-mfe-Refactoring-Products.mp4",
+        "time_estimation": 408
+      },
+      "sort_order": 109,
+      "object_index": 26,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52173250,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "27-refactoring-products.zip",
+          "title": "27-refactoring-products.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206894,
+      "title": "Consuming Remote Modules",
+      "created": "2020-11-09T00:02:29Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117120,
+        "asset_type": "Video",
+        "title": "025_-_mfe_-_Consuming_Remote_Modules.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "025-mfe-Consuming-Remote-Modules.mp4",
+        "time_estimation": 248
+      },
+      "sort_order": 108,
+      "object_index": 27,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52173252,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "28-consuming.zip",
+          "title": "28-consuming.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206890,
+      "title": "Refactoring Cart",
+      "created": "2020-11-09T00:02:11Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117122,
+        "asset_type": "Video",
+        "title": "026_-_mfe_-_Refactoring_Cart.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "026-mfe-Refactoring-Cart.mp4",
+        "time_estimation": 243
+      },
+      "sort_order": 107,
+      "object_index": 28,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52173264,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "29-refactoring-cart.zip",
+          "title": "29-refactoring-cart.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206900,
+      "title": "[Optional] A Funny Gotcha",
+      "created": "2020-11-09T00:02:38Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117138,
+        "asset_type": "Video",
+        "title": "027_-_mfe_-_Optional_A_Funny_Gotcha.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "027-mfe-Optional-A-Funny-Gotcha.mp4",
+        "time_estimation": 566
+      },
+      "sort_order": 106,
+      "object_index": 29,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "chapter",
+      "id": 5547092,
+      "sort_order": 105,
+      "title": "Linking Multiple Apps Together",
+      "is_published": true,
+      "object_index": 4
+    },
+    {
+      "_class": "lecture",
+      "id": 23206924,
+      "title": "Application Overview",
+      "created": "2020-11-09T00:04:40Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117302,
+        "asset_type": "Video",
+        "title": "001_-_app_-_Application_Overview.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "001-app-Application-Overview.mp4",
+        "time_estimation": 318
+      },
+      "sort_order": 104,
+      "object_index": 30,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23206928,
+      "title": "Tech Stack",
+      "created": "2020-11-09T00:04:50Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117322,
+        "asset_type": "Video",
+        "title": "002_-_app_-_Tech_Stack.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "002-app-Tech-Stack.mp4",
+        "time_estimation": 134
+      },
+      "sort_order": 103,
+      "object_index": 31,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23206932,
+      "title": "Requirements That Drive Architecture Choices",
+      "created": "2020-11-09T00:05:05Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117316,
+        "asset_type": "Video",
+        "title": "003_-_app_-_NOTE_C_Requirements_that_Drive_Architecture_Choices.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "003-app-NOTE-C-Requirements-that-Drive-Architecture-Choices.mp4",
+        "time_estimation": 692
+      },
+      "sort_order": 102,
+      "object_index": 32,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207792,
+      "title": "Dependency Files",
+      "created": "2020-11-09T01:49:21Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 66604561,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 28
+      },
+      "sort_order": 101,
+      "object_index": 33,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 59958649,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "mfp.zip",
+          "title": "mfp.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206938,
+      "title": "Dependency Installation",
+      "created": "2020-11-09T00:05:18Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117282,
+        "asset_type": "Video",
+        "title": "004_-_app_-_Dependency_Installation.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "004-app-Dependency-Installation.mp4",
+        "time_estimation": 68
+      },
+      "sort_order": 100,
+      "object_index": 34,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23206942,
+      "title": "Initial Webpack Config",
+      "created": "2020-11-09T00:05:25Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117300,
+        "asset_type": "Video",
+        "title": "005_-_app_-_Initial_Webpack_Config.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "005-app-Initial-Webpack-Config.mp4",
+        "time_estimation": 432
+      },
+      "sort_order": 99,
+      "object_index": 35,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23206946,
+      "title": "Creating and Merging Development Config",
+      "created": "2020-11-09T00:05:39Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117330,
+        "asset_type": "Video",
+        "title": "006_-_app_-_Creating_and_Merging_Development_Config.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "006-app-Creating-and-Merging-Development-Config.mp4",
+        "time_estimation": 195
+      },
+      "sort_order": 98,
+      "object_index": 36,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23206950,
+      "title": "Running Marketing in Isolation",
+      "created": "2020-11-09T00:05:52Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117272,
+        "asset_type": "Video",
+        "title": "007_-_app_-_Running_Marketing_in_Isolation.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "007-app-Running-Marketing-in-Isolation.mp4",
+        "time_estimation": 182
+      },
+      "sort_order": 97,
+      "object_index": 37,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52232158,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "38-running.zip",
+          "title": "38-running.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206960,
+      "title": "Wiring Up React",
+      "created": "2020-11-09T00:06:27Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117286,
+        "asset_type": "Video",
+        "title": "008_-_app_-_NOTE_D_Wiring_Up_React.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "008-app-NOTE-D-Wiring-Up-React.mp4",
+        "time_estimation": 409
+      },
+      "sort_order": 96,
+      "object_index": 38,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52232164,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "39-wiring.zip",
+          "title": "39-wiring.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23207810,
+      "title": "Marketing Components",
+      "created": "2020-11-09T01:50:45Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29118892,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 5
+      },
+      "sort_order": 95,
+      "object_index": 39,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52232154,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "marketing-components.zip",
+          "title": "marketing-components.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206964,
+      "title": "Adding the Pricing and Landing Pages",
+      "created": "2020-11-09T00:06:37Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117266,
+        "asset_type": "Video",
+        "title": "009_-_app_-_Adding_the_Pricing_and_Landing_Pages.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "009-app-Adding-the-Pricing-and-Landing-Pages.mp4",
+        "time_estimation": 70
+      },
+      "sort_order": 94,
+      "object_index": 40,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52232166,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "41-adding.zip",
+          "title": "41-adding.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "chapter",
+      "id": 5555952,
+      "sort_order": 93,
+      "title": "Generic Ties Between Projects",
+      "is_published": true,
+      "object_index": 5
+    },
+    {
+      "_class": "lecture",
+      "id": 23206976,
+      "title": "Assembling the App Component",
+      "created": "2020-11-09T00:06:49Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117310,
+        "asset_type": "Video",
+        "title": "010_-_app_-_Assembling_the_App_Component.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "010-app-Assembling-the-App-Component.mp4",
+        "time_estimation": 314
+      },
+      "sort_order": 92,
+      "object_index": 41,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52232168,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "42-assembling-app.zip",
+          "title": "42-assembling-app.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206984,
+      "title": "Assembling the Container",
+      "created": "2020-11-09T00:07:06Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117324,
+        "asset_type": "Video",
+        "title": "011_-_app_-_Assembling_the_Container.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "011-app-Assembling-the-Container.mp4",
+        "time_estimation": 441
+      },
+      "sort_order": 91,
+      "object_index": 42,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52232170,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "43-assembling-container.zip",
+          "title": "43-assembling-container.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206986,
+      "title": "Integration of the Container and Marketing",
+      "created": "2020-11-09T00:07:17Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117292,
+        "asset_type": "Video",
+        "title": "012_-_app_-_Integration_of_the_Container_and_Marketing.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "012-app-Integration-of-the-Container-and-Marketing.mp4",
+        "time_estimation": 515
+      },
+      "sort_order": 90,
+      "object_index": 43,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52232176,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "44-integration.zip",
+          "title": "44-integration.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206990,
+      "title": "Why Import the Mount Function?",
+      "created": "2020-11-09T00:07:30Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117308,
+        "asset_type": "Video",
+        "title": "013_-_app_-_Why_Import_the_Mount_Function.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "013-app-Why-Import-the-Mount-Function.mp4",
+        "time_estimation": 289
+      },
+      "sort_order": 89,
+      "object_index": 44,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23206996,
+      "title": "Generic Integration",
+      "created": "2020-11-09T00:07:54Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117312,
+        "asset_type": "Video",
+        "title": "014_-_app_-_Generic_Integration.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "014-app-Generic-Integration.mp4",
+        "time_estimation": 344
+      },
+      "sort_order": 88,
+      "object_index": 45,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52232178,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "46-generic.zip",
+          "title": "46-generic.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23206998,
+      "title": "Reminder on Shared Modules",
+      "created": "2020-11-09T00:08:02Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117274,
+        "asset_type": "Video",
+        "title": "015_-_app_-_Reminder_on_Shared_Modules.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "015-app-Reminder-on-Shared-Modules.mp4",
+        "time_estimation": 305
+      },
+      "sort_order": 87,
+      "object_index": 46,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52232180,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "47-reminder.zip",
+          "title": "47-reminder.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23207004,
+      "title": "Delegating Shared Module Selection",
+      "created": "2020-11-09T00:08:12Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117294,
+        "asset_type": "Video",
+        "title": "016_-_app_-_Delegating_Shared_Module_Selection.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "016-app-Delegating-Shared-Module-Selection.mp4",
+        "time_estimation": 364
+      },
+      "sort_order": 86,
+      "object_index": 47,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52232182,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "48-delegating.zip",
+          "title": "48-delegating.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "chapter",
+      "id": 5555954,
+      "sort_order": 85,
+      "title": "Implementing a CI/CD Pipeline",
+      "is_published": true,
+      "object_index": 6
+    },
+    {
+      "_class": "lecture",
+      "id": 23207010,
+      "title": "Requirements Around Deployment",
+      "created": "2020-11-09T00:08:39Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117328,
+        "asset_type": "Video",
+        "title": "001_-_dep_-_Requirements_Around_Deployment.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "001-dep-Requirements-Around-Deployment.mp4",
+        "time_estimation": 451
+      },
+      "sort_order": 84,
+      "object_index": 48,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207018,
+      "title": "The Path to Production",
+      "created": "2020-11-09T00:09:03Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117288,
+        "asset_type": "Video",
+        "title": "002_-_dep_-_The_Path_to_Production.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "002-dep-The-Path-to-Production.mp4",
+        "time_estimation": 333
+      },
+      "sort_order": 83,
+      "object_index": 49,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207024,
+      "title": "Initial Git Setup",
+      "created": "2020-11-09T00:09:11Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117270,
+        "asset_type": "Video",
+        "title": "003_-_dep_-_Initial_Git_Setup.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "003-dep-Initial-Git-Setup.mp4",
+        "time_estimation": 246
+      },
+      "sort_order": 82,
+      "object_index": 50,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207034,
+      "title": "Production Webpack Config for Container",
+      "created": "2020-11-09T00:09:41Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117250,
+        "asset_type": "Video",
+        "title": "004_-_dep_-_Production_Webpack_Config_for_Container.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "004-dep-Production-Webpack-Config-for-Container.mp4",
+        "time_estimation": 705
+      },
+      "sort_order": 81,
+      "object_index": 51,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52305512,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "52-production-container.zip",
+          "title": "52-production-container.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23207036,
+      "title": "Production Webpack Config for Marketing",
+      "created": "2020-11-09T00:09:56Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117244,
+        "asset_type": "Video",
+        "title": "005_-_dep_-_Production_Webpack_Config_for_Marketing.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "005-dep-Production-Webpack-Config-for-Marketing.mp4",
+        "time_estimation": 286
+      },
+      "sort_order": 80,
+      "object_index": 52,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52305518,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "53-production-marketing.zip",
+          "title": "53-production-marketing.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23207046,
+      "title": "Understanding CI:CD Pipelines",
+      "created": "2020-11-09T00:10:08Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117240,
+        "asset_type": "Video",
+        "title": "006_-_dep_-_Understanding_CICD_Pipelines.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "006-dep-Understanding-CICD-Pipelines.mp4",
+        "time_estimation": 251
+      },
+      "sort_order": 79,
+      "object_index": 53,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 30888974,
+      "title": "Required Change in the Container Action - Do not Skip",
+      "created": "2022-02-15T23:00:27Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 52281933,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 29
+      },
+      "sort_order": 78,
+      "object_index": 54,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207048,
+      "title": "Creating the Container Action",
+      "created": "2020-11-09T00:10:17Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117242,
+        "asset_type": "Video",
+        "title": "007_-_dep_-_Creating_the_Container_Action.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "007-dep-Creating-the-Container-Action.mp4",
+        "time_estimation": 595
+      },
+      "sort_order": 77,
+      "object_index": 55,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52305524,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "56-creating.zip",
+          "title": "56-creating.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23207052,
+      "title": "Testing the Pipeline",
+      "created": "2020-11-09T00:10:26Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117238,
+        "asset_type": "Video",
+        "title": "008_-_dep_-_Testing_the_Pipeline.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "008-dep-Testing-the-Pipeline.mp4",
+        "time_estimation": 197
+      },
+      "sort_order": 76,
+      "object_index": 56,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "chapter",
+      "id": 5547106,
+      "sort_order": 75,
+      "title": "Deployment to Amazon Web Services",
+      "is_published": true,
+      "object_index": 7
+    },
+    {
+      "_class": "lecture",
+      "id": 23207060,
+      "title": "S3 Bucket Setup",
+      "created": "2020-11-09T00:10:36Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117230,
+        "asset_type": "Video",
+        "title": "009_-_dep_-_S3_Bucket_Setup.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "009-dep-S3-Bucket-Setup.mp4",
+        "time_estimation": 400
+      },
+      "sort_order": 74,
+      "object_index": 57,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207064,
+      "title": "Authoring a Bucket Policy",
+      "created": "2020-11-09T00:10:48Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117198,
+        "asset_type": "Video",
+        "title": "010_-_dep_-_Authoring_a_Bucket_Policy.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "010-dep-Authoring-a-Bucket-Policy.mp4",
+        "time_estimation": 179
+      },
+      "sort_order": 73,
+      "object_index": 58,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 33255870,
+      "title": "Minor Changes in AWS CloudFront UI",
+      "created": "2022-07-26T19:50:47Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 42754650,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 38
+      },
+      "sort_order": 72,
+      "object_index": 59,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207080,
+      "title": "Cloudfront Distribution Setup",
+      "created": "2020-11-09T00:12:25Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117226,
+        "asset_type": "Video",
+        "title": "011_-_dep_-_Cloudfront_Distribution_Setup.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "011-dep-Cloudfront-Distribution-Setup.mp4",
+        "time_estimation": 234
+      },
+      "sort_order": 71,
+      "object_index": 60,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207084,
+      "title": "A Bit More Cloudfront Configuration",
+      "created": "2020-11-09T00:12:39Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117236,
+        "asset_type": "Video",
+        "title": "012_-_dep_-_A_Bit_More_Cloudfront_Configuration.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "012-dep-A-Bit-More-Cloudfront-Configuration.mp4",
+        "time_estimation": 150
+      },
+      "sort_order": 70,
+      "object_index": 61,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 30889004,
+      "title": "Key Creation Update + Reminder on AWS_DEFAULT_REGION",
+      "created": "2022-02-15T23:07:40Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 47614792,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 70
+      },
+      "sort_order": 69,
+      "object_index": 62,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207086,
+      "title": "Creating and Assigning Access Keys",
+      "created": "2020-11-09T00:12:48Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117234,
+        "asset_type": "Video",
+        "title": "013_-_dep_-_Creating_and_Assigning_Access_Keys.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "013-dep-Creating-and-Assigning-Access-Keys.mp4",
+        "time_estimation": 467
+      },
+      "sort_order": 68,
+      "object_index": 63,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207088,
+      "title": "Rerunning the Build",
+      "created": "2020-11-09T00:12:57Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117208,
+        "asset_type": "Video",
+        "title": "014_-_dep_-_Rerunning_the_Build.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "014-dep-Rerunning-the-Build.mp4",
+        "time_estimation": 58
+      },
+      "sort_order": 67,
+      "object_index": 64,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207090,
+      "title": "A Small Error",
+      "created": "2020-11-09T00:13:03Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117214,
+        "asset_type": "Video",
+        "title": "015_-_dep_-_A_Small_Error.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "015-dep-A-Small-Error.mp4",
+        "time_estimation": 316
+      },
+      "sort_order": 66,
+      "object_index": 65,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207094,
+      "title": "Webpacks PublicPath Setting",
+      "created": "2020-11-09T00:13:10Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117212,
+        "asset_type": "Video",
+        "title": "016_-_dep_-_Webpacks_PublicPath_Setting.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "016-dep-Webpacks-PublicPath-Setting.mp4",
+        "time_estimation": 200
+      },
+      "sort_order": 65,
+      "object_index": 66,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52305532,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "67-webpacks.zip",
+          "title": "67-webpacks.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "chapter",
+      "id": 5555956,
+      "sort_order": 64,
+      "title": "Microfrontend-Specific AWS Config",
+      "is_published": true,
+      "object_index": 8
+    },
+    {
+      "_class": "lecture",
+      "id": 23207096,
+      "title": "Manual Cache Invalidations",
+      "created": "2020-11-09T00:13:22Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117218,
+        "asset_type": "Video",
+        "title": "017_-_dep_-_Manual_Cache_Invalidations.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "017-dep-Manual-Cache-Invalidations.mp4",
+        "time_estimation": 323
+      },
+      "sort_order": 63,
+      "object_index": 67,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 33258234,
+      "title": "AWS Region with Automatic Invalidation",
+      "created": "2022-07-26T23:08:49Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 42708350,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 19
+      },
+      "sort_order": 62,
+      "object_index": 68,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207098,
+      "title": "Automated Invalidation",
+      "created": "2020-11-09T00:13:29Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117200,
+        "asset_type": "Video",
+        "title": "018_-_dep_-_Automated_Invalidation.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "018-dep-Automated-Invalidation.mp4",
+        "time_estimation": 408
+      },
+      "sort_order": 61,
+      "object_index": 69,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52305534,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "70-automated.zip",
+          "title": "70-automated.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23207102,
+      "title": "Successful Invalidation",
+      "created": "2020-11-09T00:13:38Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117220,
+        "asset_type": "Video",
+        "title": "019_-_dep_-_Successful_Invalidation.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "019-dep-Successful-Invalidation.mp4",
+        "time_estimation": 110
+      },
+      "sort_order": 60,
+      "object_index": 70,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207106,
+      "title": "Setting Up the Marketing Deployment",
+      "created": "2020-11-09T00:13:50Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117184,
+        "asset_type": "Video",
+        "title": "020_-_dep_-_Setting_Up_the_Marketing_Deployment.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "020-dep-Setting-Up-the-Marketing-Deployment.mp4",
+        "time_estimation": 186
+      },
+      "sort_order": 59,
+      "object_index": 71,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52305540,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "72-setting-up.zip",
+          "title": "72-setting-up.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23207108,
+      "title": "Reminder on the Production Domain",
+      "created": "2020-11-09T00:14:02Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117196,
+        "asset_type": "Video",
+        "title": "021_-_dep_-_Reminder_on_the_Production_Domain.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "021-dep-Reminder-on-the-Production-Domain.mp4",
+        "time_estimation": 348
+      },
+      "sort_order": 58,
+      "object_index": 72,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52305544,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "73-reminder.zip",
+          "title": "73-reminder.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23207112,
+      "title": "Running the Deployment",
+      "created": "2020-11-09T00:14:26Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117246,
+        "asset_type": "Video",
+        "title": "022_-_dep_-_Running_the_Deployment.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "022-dep-Running-the-Deployment.mp4",
+        "time_estimation": 58
+      },
+      "sort_order": 57,
+      "object_index": 73,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207118,
+      "title": "Verifying Deployment",
+      "created": "2020-11-09T00:14:42Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117210,
+        "asset_type": "Video",
+        "title": "023_-_dep_-_Verifying_Deployment.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "023-dep-Verifying-Deployment.mp4",
+        "time_estimation": 259
+      },
+      "sort_order": 56,
+      "object_index": 74,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207122,
+      "title": "[Optional] A Production-Style Workflow",
+      "created": "2020-11-09T00:14:55Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117216,
+        "asset_type": "Video",
+        "title": "024_-_dep_-_Optional_A_Production-Style_Workflow.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "024-dep-Optional-A-Production-Style-Workflow.mp4",
+        "time_estimation": 521
+      },
+      "sort_order": 55,
+      "object_index": 75,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 33274448,
+      "title": "AWS Setup and Configuration Cheetsheet",
+      "created": "2022-07-27T21:06:19Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 52282641,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 113
+      },
+      "sort_order": 54,
+      "object_index": 76,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "chapter",
+      "id": 5547130,
+      "sort_order": 53,
+      "title": "Handling CSS in Microfrontends",
+      "is_published": true,
+      "object_index": 9
+    },
+    {
+      "_class": "lecture",
+      "id": 23207832,
+      "title": "Header Component",
+      "created": "2020-11-09T01:53:22Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29118916,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 5
+      },
+      "sort_order": 52,
+      "object_index": 77,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 29117264,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "header.zip",
+          "title": "header.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23207126,
+      "title": "Adding a Header",
+      "created": "2020-11-09T00:15:18Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117314,
+        "asset_type": "Video",
+        "title": "001_-_css_-_NOTE_E_Adding_a_Header.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "001-css-NOTE-E-Adding-a-Header.mp4",
+        "time_estimation": 214
+      },
+      "sort_order": 51,
+      "object_index": 78,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207740,
+      "title": "Issues with CSS in Microfrontends",
+      "created": "2020-11-09T01:45:10Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117290,
+        "asset_type": "Video",
+        "title": "002_-_css_-_Issues_with_CSS_in_Microfrontends.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "002-css-Issues-with-CSS-in-Microfrontends.mp4",
+        "time_estimation": 261
+      },
+      "sort_order": 50,
+      "object_index": 79,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207128,
+      "title": "CSS Scoping Techniques",
+      "created": "2020-11-09T00:15:30Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117306,
+        "asset_type": "Video",
+        "title": "003_-_css_-_CSS_Scoping_Techniques.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "003-css-CSS-Scoping-Techniques.mp4",
+        "time_estimation": 640
+      },
+      "sort_order": 49,
+      "object_index": 80,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207130,
+      "title": "Understanding CSS in JS Libraries",
+      "created": "2020-11-09T00:15:38Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117298,
+        "asset_type": "Video",
+        "title": "004_-_css_-_Understanding_CSS_in_JS_Libraries.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "004-css-Understanding-CSS-in-JS-Libraries.mp4",
+        "time_estimation": 389
+      },
+      "sort_order": 48,
+      "object_index": 81,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207132,
+      "title": "So Whats the Bug?",
+      "created": "2020-11-09T00:15:47Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117304,
+        "asset_type": "Video",
+        "title": "005_-_css_-_So_Whats_the_Bug.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "005-css-So-Whats-the-Bug.mp4",
+        "time_estimation": 407
+      },
+      "sort_order": 47,
+      "object_index": 82,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23207136,
+      "title": "Fixing Class Name Collisions",
+      "created": "2020-11-09T00:15:58Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117318,
+        "asset_type": "Video",
+        "title": "006_-_css_-_Fixing_Class_Name_Collisions.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "006-css-Fixing-Class-Name-Collisions.mp4",
+        "time_estimation": 363
+      },
+      "sort_order": 46,
+      "object_index": 83,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52307430,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "84-fixing.zip",
+          "title": "84-fixing.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23207142,
+      "title": "Verifying the Fix",
+      "created": "2020-11-09T00:16:12Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29117284,
+        "asset_type": "Video",
+        "title": "007_-_css_-_Verifying_the_Fix.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "007-css-Verifying-the-Fix.mp4",
+        "time_estimation": 104
+      },
+      "sort_order": 45,
+      "object_index": 84,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "chapter",
+      "id": 5547136,
+      "sort_order": 44,
+      "title": "Implementing Multi-Tier Navigation",
+      "is_published": true,
+      "object_index": 10
+    },
+    {
+      "_class": "lecture",
+      "id": 33290612,
+      "title": "Small Required Change to historyApiFallback",
+      "created": "2022-07-28T21:12:43Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 52307010,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 24
+      },
+      "sort_order": 43,
+      "object_index": 85,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23241664,
+      "title": "Inflexible Requirements Around Navigation",
+      "created": "2020-11-11T03:02:18Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29167240,
+        "asset_type": "Video",
+        "title": "001_-_route_-_Inflexible_Requirements_Around_Navigation.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "001-route-Inflexible-Requirements-Around-Navigation.mp4",
+        "time_estimation": 505
+      },
+      "sort_order": 42,
+      "object_index": 86,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23241670,
+      "title": "A Few Solutions",
+      "created": "2020-11-11T03:02:35Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29167238,
+        "asset_type": "Video",
+        "title": "002_-_route_-_Solutions_to_the_First_Three_Requirements.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "002-route-Solutions-to-the-First-Three-Requirements.mp4",
+        "time_estimation": 165
+      },
+      "sort_order": 41,
+      "object_index": 87,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23241672,
+      "title": "Which History Implementation?",
+      "created": "2020-11-11T03:02:43Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29167232,
+        "asset_type": "Video",
+        "title": "003_-_route_-_Which_History_Implementation.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "003-route-Which-History-Implementation.mp4",
+        "time_estimation": 375
+      },
+      "sort_order": 40,
+      "object_index": 88,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23241678,
+      "title": "Surveying Our Current History Setup",
+      "created": "2020-11-11T03:02:52Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29167234,
+        "asset_type": "Video",
+        "title": "004_-_route_-_Surveying_Our_Current_History_Setup.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "004-route-Surveying-Our-Current-History-Setup.mp4",
+        "time_estimation": 133
+      },
+      "sort_order": 39,
+      "object_index": 89,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23241680,
+      "title": "Using Memory History",
+      "created": "2020-11-11T03:03:00Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29167244,
+        "asset_type": "Video",
+        "title": "005_-_route_-_Using_Memory_History.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "005-route-Using-Memory-History.mp4",
+        "time_estimation": 237
+      },
+      "sort_order": 38,
+      "object_index": 90,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52307436,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "91-using.zip",
+          "title": "91-using.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23241682,
+      "title": "Why the Strange Results?",
+      "created": "2020-11-11T03:03:08Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29167228,
+        "asset_type": "Video",
+        "title": "006_-_route_-_Why_the_Strange_Results.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "006-route-Why-the-Strange-Results.mp4",
+        "time_estimation": 282
+      },
+      "sort_order": 37,
+      "object_index": 91,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23241684,
+      "title": "Communication Between Apps",
+      "created": "2020-11-11T03:03:15Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29167230,
+        "asset_type": "Video",
+        "title": "008_-_route_-_Communication_Between_Apps.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "008-route-Communication-Between-Apps.mp4",
+        "time_estimation": 173
+      },
+      "sort_order": 36,
+      "object_index": 92,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23241686,
+      "title": "Communicating Through Callbacks",
+      "created": "2020-11-11T03:03:25Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29167222,
+        "asset_type": "Video",
+        "title": "009_-_route_-_Communicating_Through_Callbacks.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "009-route-Communicating-Through-Callbacks.mp4",
+        "time_estimation": 249
+      },
+      "sort_order": 35,
+      "object_index": 93,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52307442,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "94-communicating.zip",
+          "title": "94-communicating.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23241688,
+      "title": "Syncing History Objects",
+      "created": "2020-11-11T03:03:37Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29167224,
+        "asset_type": "Video",
+        "title": "010_-_route_-_Syncing_History_Objects.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "010-route-Syncing-History-Objects.mp4",
+        "time_estimation": 429
+      },
+      "sort_order": 34,
+      "object_index": 94,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52307448,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "95-syncing.zip",
+          "title": "95-syncing.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23241690,
+      "title": "Running Memory History in Isolation",
+      "created": "2020-11-11T03:03:54Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29167236,
+        "asset_type": "Video",
+        "title": "011_-_route_-_Running_Memory_History_in_Isolation.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "011-route-Running-Memory-History-in-Isolation.mp4",
+        "time_estimation": 132
+      },
+      "sort_order": 33,
+      "object_index": 95,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52307456,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "96-running.zip",
+          "title": "96-running.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23241694,
+      "title": "Container to Child Communication",
+      "created": "2020-11-11T03:04:06Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29167226,
+        "asset_type": "Video",
+        "title": "012_-_route_-_Container_to_Child_Communication.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "012-route-Container-to-Child-Communication.mp4",
+        "time_estimation": 442
+      },
+      "sort_order": 32,
+      "object_index": 96,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52307464,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "97-container.zip",
+          "title": "97-container.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23241698,
+      "title": "Using Browser History in Isolation",
+      "created": "2020-11-11T03:04:16Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29167242,
+        "asset_type": "Video",
+        "title": "013_-_route_-_Using_Browser_History_in_Isolation.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "013-route-Using-Browser-History-in-Isolation.mp4",
+        "time_estimation": 197
+      },
+      "sort_order": 31,
+      "object_index": 97,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52307470,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "98-using.zip",
+          "title": "98-using.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "chapter",
+      "id": 5563926,
+      "sort_order": 30,
+      "title": "Performance Considerations",
+      "is_published": true,
+      "object_index": 11
+    },
+    {
+      "_class": "lecture",
+      "id": 23275268,
+      "title": "Starting the Auth Project",
+      "created": "2020-11-12T20:45:43Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206522,
+        "asset_type": "Video",
+        "title": "001_-_wrap_-_NOTE_F_Starting_the_Auth_Project.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "001-wrap-NOTE-F-Starting-the-Auth-Project.mp4",
+        "time_estimation": 385
+      },
+      "sort_order": 29,
+      "object_index": 98,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52307504,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "99-starting.zip",
+          "title": "99-starting.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275272,
+      "title": "Component Files",
+      "created": "2020-11-12T20:45:48Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29214320,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 5
+      },
+      "sort_order": 28,
+      "object_index": 99,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52306792,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "components.zip",
+          "title": "components.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275278,
+      "title": "Adding Signin and Signup Forms",
+      "created": "2020-11-12T20:45:58Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206520,
+        "asset_type": "Video",
+        "title": "002_-_wrap_-_Adding_the_Signin_and_Signup_Forms.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "002-wrap-Adding-the-Signin-and-Signup-Forms.mp4",
+        "time_estimation": 216
+      },
+      "sort_order": 27,
+      "object_index": 100,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52307510,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "101-adding.zip",
+          "title": "101-adding.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275284,
+      "title": "A Deeper Dive on PublicPath",
+      "created": "2020-11-12T20:46:08Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206524,
+        "asset_type": "Video",
+        "title": "003_-_wrap_-_A_Deep_Dive_on_the_Public_Path_Property.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "003-wrap-A-Deep-Dive-on-the-Public-Path-Property.mp4",
+        "time_estimation": 716
+      },
+      "sort_order": 26,
+      "object_index": 101,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 40555832,
+      "title": "Small Required Change to historyApiFallback",
+      "created": "2023-10-26T21:18:57Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 52307002,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 22
+      },
+      "sort_order": 25,
+      "object_index": 102,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23275288,
+      "title": "Last Time for PublicPath",
+      "created": "2020-11-12T20:46:16Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206516,
+        "asset_type": "Video",
+        "title": "004_-_wrap_-_Last_Time_for_PublicPath.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "004-wrap-Last-Time-for-PublicPath.mp4",
+        "time_estimation": 225
+      },
+      "sort_order": 24,
+      "object_index": 103,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23275292,
+      "title": "Integrating Auth into the Container",
+      "created": "2020-11-12T20:46:23Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206528,
+        "asset_type": "Video",
+        "title": "005_-_wrap_-_Integrating_Auth_Into_the_Container.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "005-wrap-Integrating-Auth-Into-the-Container.mp4",
+        "time_estimation": 272
+      },
+      "sort_order": 23,
+      "object_index": 104,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52307512,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "104-integrating.zip",
+          "title": "104-integrating.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275298,
+      "title": "Adding Initial State to Memory History",
+      "created": "2020-11-12T20:46:32Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206518,
+        "asset_type": "Video",
+        "title": "006_-_wrap_-_Adding_Initial_State_to_Memory_History.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "006-wrap-Adding-Initial-State-to-Memory-History.mp4",
+        "time_estimation": 471
+      },
+      "sort_order": 22,
+      "object_index": 105,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52307656,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "105-adding-initial.zip",
+          "title": "105-adding-initial.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275300,
+      "title": "Lazily Loading SubApps",
+      "created": "2020-11-12T20:46:38Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206512,
+        "asset_type": "Video",
+        "title": "007_-_wrap_-_Lazily_Loading_SubApps.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "007-wrap-Lazily-Loading-SubApps.mp4",
+        "time_estimation": 472
+      },
+      "sort_order": 21,
+      "object_index": 106,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52307524,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "106-lazily.zip",
+          "title": "106-lazily.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275302,
+      "title": "Adding a Loading Bar",
+      "created": "2020-11-12T20:46:43Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206514,
+        "asset_type": "Video",
+        "title": "008_-_wrap_-_Adding_a_Loading_Bar.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "008-wrap-Adding-a-Loading-Bar.mp4",
+        "time_estimation": 281
+      },
+      "sort_order": 20,
+      "object_index": 107,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52307652,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "107-adding-loading.zip",
+          "title": "107-adding-loading.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "chapter",
+      "id": 5563932,
+      "sort_order": 19,
+      "title": "Authentication in Microfrontends",
+      "is_published": true,
+      "object_index": 12
+    },
+    {
+      "_class": "lecture",
+      "id": 23275316,
+      "title": "Important Notes on Authentication",
+      "created": "2020-11-12T20:47:18Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206558,
+        "asset_type": "Video",
+        "title": "001_-_auth_-_Important_Notes_on_Authentication.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "001-auth-Important-Notes-on-Authentication.mp4",
+        "time_estimation": 288
+      },
+      "sort_order": 18,
+      "object_index": 108,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23275320,
+      "title": "Implementation Strategies",
+      "created": "2020-11-12T20:47:24Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206554,
+        "asset_type": "Video",
+        "title": "002_-_auth_-_Implementation_Strategy.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "002-auth-Implementation-Strategy.mp4",
+        "time_estimation": 90
+      },
+      "sort_order": 17,
+      "object_index": 109,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23275326,
+      "title": "Communicating Auth Changes",
+      "created": "2020-11-12T20:47:29Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206550,
+        "asset_type": "Video",
+        "title": "003_-_auth_-_Communicating_Auth_Changes.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "003-auth-Communicating-Auth-Changes.mp4",
+        "time_estimation": 298
+      },
+      "sort_order": 16,
+      "object_index": 110,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52327774,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "111-communicating-auth.zip",
+          "title": "111-communicating-auth.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275336,
+      "title": "Communicating Authentication State",
+      "created": "2020-11-12T20:47:38Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206552,
+        "asset_type": "Video",
+        "title": "004_-_auth_-_Communicating_Authentication_State.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "004-auth-Communicating-Authentication-State.mp4",
+        "time_estimation": 348
+      },
+      "sort_order": 15,
+      "object_index": 111,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52327778,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "112-communicating-state.zip",
+          "title": "112-communicating-state.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275338,
+      "title": "Allowing Signout",
+      "created": "2020-11-12T20:47:44Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206548,
+        "asset_type": "Video",
+        "title": "005_-_auth_-_Allowing_Signout.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "005-auth-Allowing-Signout.mp4",
+        "time_estimation": 100
+      },
+      "sort_order": 14,
+      "object_index": 112,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52327786,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "113-allowing.zip",
+          "title": "113-allowing.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275342,
+      "title": "Adding an Auth Deploy Config",
+      "created": "2020-11-12T20:47:51Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206556,
+        "asset_type": "Video",
+        "title": "006_-_auth_-_Adding_a_Auth_Deploy_Config.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "006-auth-Adding-a-Auth-Deploy-Config.mp4",
+        "time_estimation": 195
+      },
+      "sort_order": 13,
+      "object_index": 113,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 52327790,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "114-adding.zip",
+          "title": "114-adding.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275344,
+      "title": "Verifying Deployment",
+      "created": "2020-11-12T20:47:57Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206546,
+        "asset_type": "Video",
+        "title": "007_-_auth_-_Verifying_Deployment.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "007-auth-Verifying-Deployment.mp4",
+        "time_estimation": 96
+      },
+      "sort_order": 12,
+      "object_index": 114,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "chapter",
+      "id": 5563936,
+      "sort_order": 11,
+      "title": "Using Other Frontend Frameworks",
+      "is_published": true,
+      "object_index": 13
+    },
+    {
+      "_class": "lecture",
+      "id": 23275348,
+      "title": "Initial Dashboard Setup",
+      "created": "2020-11-12T20:48:19Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206448,
+        "asset_type": "Video",
+        "title": "001_-_dash_-_Initial_Dashboard_Setup.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "001-dash-Initial-Dashboard-Setup.mp4",
+        "time_estimation": 433
+      },
+      "sort_order": 10,
+      "object_index": 115,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23275350,
+      "title": "A Touch More Config",
+      "created": "2020-11-12T20:48:27Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206454,
+        "asset_type": "Video",
+        "title": "002_-_dash_-_NOTE_G_A_Touch_More_Config.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "002-dash-NOTE-G-A-Touch-More-Config.mp4",
+        "time_estimation": 194
+      },
+      "sort_order": 9,
+      "object_index": 116,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 59959365,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "115-touch.zip",
+          "title": "115-touch.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275354,
+      "title": "Component Files",
+      "created": "2020-11-12T20:48:32Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29214410,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 5
+      },
+      "sort_order": 8,
+      "object_index": 117,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 29214414,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "components.zip",
+          "title": "components.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275358,
+      "title": "Showing the Dashboard",
+      "created": "2020-11-12T20:48:39Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206450,
+        "asset_type": "Video",
+        "title": "003_-_dash_-_Showing_the_Dashboard.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "003-dash-Showing-the-Dashboard.mp4",
+        "time_estimation": 335
+      },
+      "sort_order": 7,
+      "object_index": 118,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 59959373,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "117-showing.zip",
+          "title": "117-showing.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275362,
+      "title": "Integration with the Container",
+      "created": "2020-11-12T20:48:44Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206456,
+        "asset_type": "Video",
+        "title": "004_-_dash_-_Integration_with_the_Container.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "004-dash-Integration-with-the-Container.mp4",
+        "time_estimation": 361
+      },
+      "sort_order": 6,
+      "object_index": 119,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23275366,
+      "title": "Protecting Access to the Dashboard",
+      "created": "2020-11-12T20:48:55Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206464,
+        "asset_type": "Video",
+        "title": "005_-_dash_-_Protecting_Access_to_the_Dashboard.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "005-dash-Protecting-Access-to-the-Dashboard.mp4",
+        "time_estimation": 360
+      },
+      "sort_order": 5,
+      "object_index": 120,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 59959375,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "119-protecting.zip",
+          "title": "119-protecting.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275368,
+      "title": "Deploying the Dashboard",
+      "created": "2020-11-12T20:49:01Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206452,
+        "asset_type": "Video",
+        "title": "006_-_dash_-_Deploying_the_Dashboard.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "006-dash-Deploying-the-Dashboard.mp4",
+        "time_estimation": 154
+      },
+      "sort_order": 4,
+      "object_index": 121,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 59959387,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "120-deploying.zip",
+          "title": "120-deploying.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 23275374,
+      "title": "Verifying Deployment",
+      "created": "2020-11-12T20:49:08Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206442,
+        "asset_type": "Video",
+        "title": "007_-_dash_-_Verifying_Deployment.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "007-dash-Verifying-Deployment.mp4",
+        "time_estimation": 68
+      },
+      "sort_order": 3,
+      "object_index": 122,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 23275376,
+      "title": "Wrapup",
+      "created": "2020-11-12T20:49:11Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 29206446,
+        "asset_type": "Video",
+        "title": "008_-_dash_-_Wrapup.mp4",
+        "status": 1,
+        "is_external": false,
+        "filename": "008-dash-Wrapup.mp4",
+        "time_estimation": 198
+      },
+      "sort_order": 2,
+      "object_index": 123,
+      "supplementary_assets": []
+    },
+    {
+      "_class": "lecture",
+      "id": 51373675,
+      "title": "Updating Project for React 19, React Router 6, MUI 5",
+      "created": "2025-07-10T21:30:15Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 66604309,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 29
+      },
+      "sort_order": 1,
+      "object_index": 124,
+      "supplementary_assets": [
+        {
+          "_class": "asset",
+          "id": 66604319,
+          "time_estimation": 0,
+          "is_external": false,
+          "filename": "mfp-update.zip",
+          "title": "mfp-update.zip",
+          "asset_type": "File",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "_class": "lecture",
+      "id": 24835572,
+      "title": "Bonus!",
+      "created": "2021-02-09T01:32:57Z",
+      "is_published": true,
+      "is_free": false,
+      "asset": {
+        "_class": "asset",
+        "id": 70401631,
+        "asset_type": "Article",
+        "title": "",
+        "status": 1,
+        "is_external": false,
+        "filename": "",
+        "time_estimation": 32
+      },
+      "sort_order": 0,
+      "object_index": 125,
+      "supplementary_assets": []
+    }
+  ]
+}

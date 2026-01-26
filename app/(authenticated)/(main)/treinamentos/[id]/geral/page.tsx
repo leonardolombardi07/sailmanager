@@ -1,5 +1,4 @@
 import {
-  MapPin,
   Wind,
   Waves,
   Thermometer,
@@ -7,7 +6,6 @@ import {
   Droplets,
   Anchor,
 } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Separator } from "@/components/ui/separator";
@@ -18,25 +16,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import {
-  Practice,
-  MeteorologySummary,
-  Datetime,
-  PracticeId,
-} from "@/api/types"; // Adjust path as needed
+import { MeteorologySummary, PracticeId } from "@/api/types";
 import { getPracticeById } from "@/api/server";
-
-function formatDate(dt: Datetime) {
-  const date = new Date(dt.datetime);
-  return new Intl.DateTimeFormat("pt-br", {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
-  }).format(date);
-}
 
 export type PageProps = {
   params: Promise<{ id: PracticeId }>;
@@ -46,108 +27,26 @@ export default async function Page({ params }: PageProps) {
   const { id: practiceId } = await params;
   const practice = await getPracticeById(practiceId);
 
-  if (!practice) return <div>Practice not found</div>;
-
   return (
-    <div className="min-h-screen pb-14 md:p-8">
-      <div className="mx-auto max-w-6xl">
-        {/* Main Grid Layout */}
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-          {/* LEFT COLUMN (Main Content) - Spans 2 columns on large screens */}
-          <div className="space-y-8 lg:col-span-2">
-            <GeneralInformationHeader practice={practice} />
+    <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      {/* LEFT COLUMN (Main Content) */}
+      <div className="space-y-8 lg:col-span-2">
+        <CoachesCarouselSection coachIds={practice.coachIds} />
 
-            <Separator />
+        <DescriptionSection description={practice.descriptionMarkdown} />
 
-            <CoachesCarouselSection coachIds={practice.coachIds} />
-
-            <DescriptionSection description={practice.descriptionMarkdown} />
-
-            <SailorsCarouselSection sailorIds={practice.sailorIds} />
-          </div>
-
-          {/* RIGHT COLUMN (Sidebar/Stats) - Spans 1 column */}
-          <div className="space-y-6">
-            <MeterologySections data={practice.metereologySummary} />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-// --- SUB-COMPONENTS ---
-
-function GeneralInformationHeader({ practice }: { practice: Practice }) {
-  const statusColors = {
-    scheduled: "bg-blue-100 text-blue-800 hover:bg-blue-100",
-    ongoing: "bg-green-100 text-green-800 hover:bg-green-100",
-    finished: "bg-gray-100 text-gray-800 hover:bg-gray-100",
-  };
-
-  return (
-    <div className="space-y-4">
-      {/* Top Row: Status & Date */}
-      <div className="text-muted-foreground flex items-center gap-3 text-sm">
-        <Badge
-          variant="outline"
-          className={`border-0 px-2.5 py-0.5 capitalize ${statusColors[practice.status]}`}
-        >
-          {practice.status === "finished"
-            ? "Finalizado"
-            : practice.status === "ongoing"
-              ? "Em Andamento"
-              : "Agendado"}
-        </Badge>
-
-        <span>
-          {formatDate(practice.actualStart || practice.expectedStart)}
-        </span>
+        <SailorsCarouselSection sailorIds={practice.sailorIds} />
       </div>
 
-      {/* Title */}
-      <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-        {practice.name}
-      </h1>
-
-      {/* Location & Meta */}
-      <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
-        <div className="flex items-center gap-1.5">
-          <MapPin className="h-4 w-4 text-orange-500" />
-          {practice.location.place.name}
-        </div>
-
-        <div className="h-4 w-px bg-gray-300" />
-
-        <div className="flex items-center gap-2">
-          {/* Classes Badges */}
-          {practice.classes.map((cls) => (
-            <Badge key={cls} variant="secondary" className="font-normal">
-              {cls}
-            </Badge>
-          ))}
-        </div>
+      {/* RIGHT COLUMN (Sidebar/Stats) */}
+      <div className="space-y-6">
+        <MeterologySections data={practice.metereologySummary} />
       </div>
-
-      {/* Tags */}
-      {practice.tags.length > 0 && (
-        <div className="flex flex-wrap gap-2 pt-2">
-          {practice.tags.map((tag) => (
-            <span
-              key={tag}
-              className="rounded bg-orange-50 px-2 py-1 text-xs font-medium text-orange-600"
-            >
-              #{tag}
-            </span>
-          ))}
-        </div>
-      )}
     </div>
   );
 }
 
 function CoachesCarouselSection({ coachIds }: { coachIds: string[] }) {
-  // Mocking coach data fetch
   const coaches = coachIds.map((id) => ({
     id,
     name: "Lucas Faria",
@@ -171,7 +70,7 @@ function CoachesCarouselSection({ coachIds }: { coachIds: string[] }) {
               <div className="flex flex-col items-center gap-2 text-center">
                 <Avatar className="h-12 w-12 border-2 border-white shadow-sm">
                   <AvatarImage src={coach.image} />
-                  <AvatarFallback className="bg-orange-100 text-orange-700">
+                  <AvatarFallback className="bg-primary/10 text-primary">
                     CM
                   </AvatarFallback>
                 </Avatar>
@@ -182,7 +81,6 @@ function CoachesCarouselSection({ coachIds }: { coachIds: string[] }) {
             </CarouselItem>
           ))}
         </CarouselContent>
-        {/* Simple nav arrows if list is long */}
         <div className="hidden sm:block">
           <CarouselPrevious className="-left-4 h-8 w-8" />
           <CarouselNext className="-right-4 h-8 w-8" />
@@ -195,7 +93,6 @@ function CoachesCarouselSection({ coachIds }: { coachIds: string[] }) {
 function DescriptionSection({ description }: { description: string }) {
   return (
     <div className="prose prose-stone max-w-none rounded-lg border bg-white p-6 text-sm leading-relaxed text-gray-700 shadow-sm">
-      {/* Simple markdown rendering simulation */}
       {description.split("\n").map((line, i) => (
         <p key={i} className={line.startsWith("*") ? "ml-4 list-disc" : "mb-2"}>
           {line.replace(/\*\*/g, "")}
@@ -206,7 +103,6 @@ function DescriptionSection({ description }: { description: string }) {
 }
 
 function SailorsCarouselSection({ sailorIds }: { sailorIds: string[] }) {
-  // Mocking sailor data
   const sailors = sailorIds.map((id, i) => ({
     id,
     name: `Velejador ${i + 1}`,
@@ -230,7 +126,7 @@ function SailorsCarouselSection({ sailorIds }: { sailorIds: string[] }) {
               className="basis-1/5 md:basis-1/6 lg:basis-1/8"
             >
               <div className="group flex cursor-pointer flex-col items-center gap-2 text-center">
-                <Avatar className="h-14 w-14 ring-orange-400 transition group-hover:ring-2">
+                <Avatar className="text-primary/50 h-14 w-14 transition group-hover:ring-2">
                   <AvatarImage src={sailor.image} />
                   <AvatarFallback className="bg-slate-100 text-xs text-slate-600">
                     S{sailor.id.split("-")[1]}
@@ -267,7 +163,7 @@ function MeterologySections({ data }: { data: MeteorologySummary }) {
       <CardContent className="grid gap-6 px-6 py-0">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="rounded-full bg-orange-50 p-2 text-orange-600">
+            <div className="bg-primary/10 text-primary rounded-full p-2">
               {getConditionIcon(data.condition)}
             </div>
 
@@ -348,7 +244,7 @@ function getConditionIcon(condition: string) {
     case "rainy":
       return <Droplets className="h-5 w-5" />;
     case "sunny":
-      return <Thermometer className="h-5 w-5" />; // Or a Sun icon if available
+      return <Thermometer className="h-5 w-5" />;
     default:
       return <Cloud className="h-5 w-5" />;
   }

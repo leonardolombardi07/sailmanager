@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/sidebar";
 import ModeToggle from "./_layout/ModeToggle";
 import { Home, Trophy, Sailboat, TentTree } from "lucide-react";
-import { APP_NAME } from "../constants";
+import { APP_NAME } from "../../constants";
 import SidebarItem from "./_layout/SidebarItem";
 import { cookies } from "next/headers"; // 1. Import cookies
 
@@ -23,7 +23,7 @@ export default async function Layout({
 
   return (
     <SidebarProvider
-      defaultOpen={defaultOpen}
+      defaultOpen={defaultOpen || true}
       style={
         {
           "--sidebar-width": "180px",

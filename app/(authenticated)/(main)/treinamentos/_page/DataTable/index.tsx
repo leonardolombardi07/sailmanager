@@ -7,8 +7,6 @@ import {
   DropdownMenuCheckboxItem,
   DropdownMenuContent,
   DropdownMenuGroup,
-  DropdownMenuItem,
-  DropdownMenuLabel,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Input } from "@/components/ui/input";
@@ -27,124 +25,30 @@ import {
   getPaginationRowModel,
   getSortedRowModel,
   useReactTable,
-  type ColumnDef,
-  type ColumnFiltersState,
   type SortingState,
   type VisibilityState,
+  type ColumnFiltersState,
 } from "@tanstack/react-table";
-import { ArrowUpDown, ChevronDown, MoreHorizontal } from "lucide-react";
+import { ChevronDown, X } from "lucide-react";
 import { Practice } from "@/api/types";
-import { useRouter } from "next/navigation";
+import { useColumns } from "./columns";
+import { DataTableFilter } from "./filter";
 
-export function useColumns(): ColumnDef<Practice>[] {
-  const router = useRouter();
+// Define filter options
+const STATUS_OPTIONS = [
+  { label: "Agendado", value: "scheduled" },
+  { label: "Finalizado", value: "finished" },
+  { label: "Em Andamento", value: "ongoing" },
+];
 
-  return [
-    {
-      accessorKey: "status",
-      header: "Status",
-      cell: ({ row }) => (
-        <div className="capitalize">{row.getValue("status")}</div>
-      ),
-    },
-    {
-      accessorKey: "name",
-      header: ({ column }) => {
-        return (
-          <Button
-            variant="ghost"
-            onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-          >
-            Nome
-            <ArrowUpDown className="ml-2 h-4 w-4" />
-          </Button>
-        );
-      },
-      cell: ({ row }) => (
-        <div className="font-medium">{row.getValue("name")}</div>
-      ),
-    },
-    {
-      // Access nested data using dot notation
-      accessorKey: "expectedStart.datetime",
-      header: "Data",
-      cell: ({ row }) => {
-        const dateStr = row.original.expectedStart.datetime;
-        const date = new Date(dateStr);
-
-        // Simple date formatting
-        const formatted = new Intl.DateTimeFormat("en-US", {
-          dateStyle: "medium",
-          timeStyle: "short",
-        }).format(date);
-
-        return <div>{formatted}</div>;
-      },
-    },
-    {
-      accessorKey: "location.place.name",
-      header: "Local",
-      cell: ({ row }) => {
-        // Safely access nested property
-        const locationName = row.original.location?.place?.name || "Unknown";
-        return <div>{locationName}</div>;
-      },
-    },
-    {
-      accessorKey: "classes",
-      header: "Classes",
-      cell: ({ row }) => {
-        const classes = row.original.classes || [];
-        return (
-          <div className="text-muted-foreground text-sm">
-            {classes.join(", ")}
-          </div>
-        );
-      },
-    },
-    {
-      id: "actions",
-      enableHiding: false,
-      cell: ({ row }) => {
-        const practice = row.original;
-
-        return (
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="ghost" className="h-8 w-8 p-0">
-                <span className="sr-only">Open menu</span>
-                <MoreHorizontal className="h-4 w-4" />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-              <DropdownMenuGroup>
-                <DropdownMenuLabel>Ações</DropdownMenuLabel>
-
-                <DropdownMenuItem
-                  onClick={() => navigator.clipboard.writeText(practice.id)}
-                >
-                  Copiar ID
-                </DropdownMenuItem>
-              </DropdownMenuGroup>
-
-              <DropdownMenuGroup>
-                <DropdownMenuItem
-                  onClick={() => router.push(`/treinamentos/${practice.id}`)}
-                >
-                  Ver detalhes
-                </DropdownMenuItem>
-
-                <DropdownMenuItem>
-                  Ver velejadores ({practice.sailorIds.length})
-                </DropdownMenuItem>
-              </DropdownMenuGroup>
-            </DropdownMenuContent>
-          </DropdownMenu>
-        );
-      },
-    },
-  ];
-}
+const CLASS_OPTIONS = [
+  { label: "Optimist", value: "Optimist" },
+  { label: "ILCA 4", value: "ILCA 4" },
+  { label: "ILCA 6", value: "ILCA 6" },
+  { label: "ILCA 7", value: "ILCA 7" },
+  { label: "Snipe", value: "Snipe" },
+  { label: "420", value: "420" },
+];
 
 export default function DataTable({ practices }: { practices: Practice[] }) {
   const [sorting, setSorting] = React.useState<SortingState>([]);
@@ -155,10 +59,36 @@ export default function DataTable({ practices }: { practices: Practice[] }) {
     React.useState<VisibilityState>({});
   const [rowSelection, setRowSelection] = React.useState({});
 
+  // Global Search State
+  const [globalFilter, setGlobalFilter] = React.useState("");
+
   const columns = useColumns();
 
+  // Manual Global Filter Logic
+  // Filters data BEFORE passing it to the table
+  const filteredData = React.useMemo(() => {
+    if (!globalFilter) return practices;
+    const search = globalFilter.toLowerCase();
+
+    return practices.filter((practice) => {
+      const name = practice.name?.toLowerCase() || "";
+      const status = practice.status?.toLowerCase() || "";
+      const location = practice.location?.place?.name?.toLowerCase() || "";
+      const dateStr = practice.expectedStart?.datetime || "";
+      const classesStr = (practice.classes || []).join(" ").toLowerCase();
+
+      return (
+        name.includes(search) ||
+        status.includes(search) ||
+        location.includes(search) ||
+        dateStr.includes(search) ||
+        classesStr.includes(search)
+      );
+    });
+  }, [practices, globalFilter]);
+
   const table = useReactTable({
-    data: practices,
+    data: filteredData,
     columns,
     onSortingChange: setSorting,
     onColumnFiltersChange: setColumnFilters,
@@ -176,21 +106,60 @@ export default function DataTable({ practices }: { practices: Practice[] }) {
     },
   });
 
+  const isFiltered = globalFilter.length > 0 || columnFilters.length > 0;
+
   return (
-    <div className="w-full">
-      <div className="flex items-center py-4">
-        {/* Changed filter to target "name" instead of "email" */}
-        <Input
-          placeholder="Filtrar treinos..."
-          value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
-          onChange={(event) =>
-            table.getColumn("name")?.setFilterValue(event.target.value)
-          }
-          className="max-w-sm"
-        />
+    <div className="w-full space-y-4">
+      {/* Toolbar */}
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex flex-1 items-center space-x-2">
+          <Input
+            placeholder="Pesquisar..."
+            value={globalFilter}
+            onChange={(event) => setGlobalFilter(event.target.value)}
+            className="h-8 w-[150px] lg:w-[250px]"
+          />
+
+          {/* Faceted Filters */}
+          {table.getColumn("status") && (
+            <DataTableFilter
+              column={table.getColumn("status")}
+              title="Status"
+              options={STATUS_OPTIONS}
+            />
+          )}
+          {table.getColumn("classes") && (
+            <DataTableFilter
+              column={table.getColumn("classes")}
+              title="Classes"
+              options={CLASS_OPTIONS}
+            />
+          )}
+
+          {/* Reset Filters Button */}
+          {isFiltered && (
+            <Button
+              variant="ghost"
+              onClick={() => {
+                setGlobalFilter("");
+                table.resetColumnFilters();
+              }}
+              className="h-8 px-2 lg:px-3"
+            >
+              Resetar
+              <X className="ml-2 h-4 w-4" />
+            </Button>
+          )}
+        </div>
+
+        {/* Column Visibility */}
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="outline" className="ml-auto">
+            <Button
+              variant="outline"
+              size="sm"
+              className="ml-auto hidden h-8 lg:flex"
+            >
               Colunas <ChevronDown className="ml-2 h-4 w-4" />
             </Button>
           </DropdownMenuTrigger>
@@ -209,10 +178,11 @@ export default function DataTable({ practices }: { practices: Practice[] }) {
                         column.toggleVisibility(!!value)
                       }
                     >
-                      {/* Clean up header title for the dropdown */}
                       {column.id === "expectedStart_datetime"
-                        ? "Date"
-                        : column.id}
+                        ? "Data"
+                        : column.id === "location_place_name"
+                          ? "Local"
+                          : column.id}
                     </DropdownMenuCheckboxItem>
                   );
                 })}
@@ -220,7 +190,9 @@ export default function DataTable({ practices }: { practices: Practice[] }) {
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
-      <div className="overflow-hidden rounded-md border">
+
+      {/* Table */}
+      <div className="rounded-md border">
         <Table>
           <TableHeader>
             {table.getHeaderGroups().map((headerGroup) => (
@@ -263,17 +235,19 @@ export default function DataTable({ practices }: { practices: Practice[] }) {
                   colSpan={columns.length}
                   className="h-24 text-center"
                 >
-                  No results.
+                  Nenhum resultado encontrado.
                 </TableCell>
               </TableRow>
             )}
           </TableBody>
         </Table>
       </div>
-      <div className="flex items-center justify-end space-x-2 py-4">
+
+      {/* Pagination */}
+      <div className="flex items-center justify-end space-x-2">
         <div className="text-muted-foreground flex-1 text-sm">
-          {table.getFilteredSelectedRowModel().rows.length} of{" "}
-          {table.getFilteredRowModel().rows.length} row(s) selected.
+          {table.getFilteredSelectedRowModel().rows.length} de{" "}
+          {table.getFilteredRowModel().rows.length} linha(s) selecionadas.
         </div>
         <div className="space-x-2">
           <Button
@@ -282,7 +256,7 @@ export default function DataTable({ practices }: { practices: Practice[] }) {
             onClick={() => table.previousPage()}
             disabled={!table.getCanPreviousPage()}
           >
-            Previous
+            Anterior
           </Button>
           <Button
             variant="outline"
@@ -290,7 +264,7 @@ export default function DataTable({ practices }: { practices: Practice[] }) {
             onClick={() => table.nextPage()}
             disabled={!table.getCanNextPage()}
           >
-            Next
+            Próximo
           </Button>
         </div>
       </div>

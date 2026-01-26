@@ -8,15 +8,42 @@ type BaseMedia = {
   description?: string;
 };
 
-export type ImageMedia = {
+export type ImageMedia = BaseMedia & {
+  type: "image";
   src: string;
-  datetime: Datetime;
+  slug?: string;
+  datetime?: Datetime;
+};
+
+type VideoAnnotation = {
+  id: string;
+  videoId: string;
+  message: string;
+  rangeInSeconds: [number, number];
 };
 
 export type VideoMedia = BaseMedia & {
+  type: "video";
   src: string;
+  slug?: string;
   startDatetime?: Datetime;
-  durationInMinutes?: number;
+  elementIndex: number;
+  thumbnail: string;
+  durationInSeconds: number;
+  annotations?: VideoAnnotation[];
 };
 
 export type Media = ImageMedia | VideoMedia;
+
+export type PracticeSection = {
+  title: string;
+  description: string;
+};
+
+export type PracticeElement = number | PracticeSection;
+
+export type PracticeMedias = {
+  slugs: string[];
+  elements: PracticeElement[];
+  mediasById: Record<MediaId, Media>;
+};

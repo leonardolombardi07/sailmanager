@@ -1,0 +1,123 @@
+{
+  "_class": "course",
+  "id": 3604434,
+  "title": "Microfrontends with React: A Complete Developer's Guide",
+  "url": "/course/microfrontend-course/",
+  "is_paid": true,
+  "visible_instructors": [
+    {
+      "_class": "user",
+      "id": 5487312,
+      "title": "Stephen Grider",
+      "display_name": "Stephen Grider",
+      "job_title": "Engineering Architect",
+      "image_50x50": "https://img-c.udemycdn.com/user/50x50/5487312_0554.jpg",
+      "initials": "SG",
+      "url": "/user/sgslo/",
+      "image_200_H": "https://img-c.udemycdn.com/user/200_H/5487312_0554.jpg",
+      "description": "<p>Stephen Grider has been building complex Javascript front ends for top corporations in the San Francisco Bay Area.&nbsp; With an innate ability to simplify complex topics, Stephen has been mentoring engineers beginning their careers in software development for years, and has now expanded that experience onto Udemy, authoring the highest rated React course. He&nbsp;teaches on Udemy to share the knowledge he&nbsp;has&nbsp;gained with other software engineers.&nbsp; Invest in yourself by learning from Stephen's published courses.</p>",
+      "url_twitter": "https://twitter.com/ste_grider",
+      "url_facebook": "",
+      "url_linkedin": "https://linkedin.com/pub/stephen-grider/20/a23/170",
+      "url_youtube": "https://www.youtube.com/channel/UCQCaS3atWyNHEy5PkDXdpNg/",
+      "url_personal_website": "",
+      "url_instagram": "",
+      "url_tiktok": "",
+      "avg_rating_recent": 4.597893463741523,
+      "total_num_students": 1565074,
+      "total_num_reviews": 499280
+    }
+  ],
+  "image_240x135": "https://img-c.udemycdn.com/course/240x135/3604434_7884_3.jpg",
+  "is_practice_test_course": false,
+  "locale": {
+    "_class": "locale",
+    "locale": "en_US",
+    "simple_english_title": "English"
+  },
+  "description": "<p>Congratulations! You've found the <em>most </em><strong><em>popular</em></strong>, <em>most </em><strong><em>complete</em></strong>, and <em>most </em><strong><em>up-to-date</em></strong> resource online for learning how to use microfrontends!</p><p>Thousands of other engineers have learned microfrontends, and you can too. This course uses a <strong>time-tested, battle-proven</strong> method to make sure you understand exactly how microfrontends work, and will get you a new job working as a software engineer or help you build that app you've always been dreaming about.</p><p><strong>The difference between this course and all the others: </strong>you will understand the design patterns used by top companies to build massively popular web apps.</p><p><strong>Microfrontends are used to divide a large app into a series of smaller apps.</strong> This provides a set of unique benefits to any frontend:</p><ol><li><p>Author smaller, easier to understand codebases</p></li><li><p>Use a different set of libraries for each sub-app - bring the best tool for the job!</p></li><li><p>Deploy each portion separately - limit the chance of interrupting your users</p></li><li><p>Allow each of your engineering teams to work independently</p></li></ol><p>This new architecture is popular, but there is a lot of misinformation online. This course has been developed with input from top engineers to ensure <strong>total technical accuracy</strong>. Additionally, you'll learn how to evaluate whether microservices are a good choice for your application.</p><p>----------------------</p><p><strong><em>What will you build?</em></strong></p><p>This course features hundreds of videos with <strong>dozens of custom diagrams</strong> to help you understand how microfrontends work. No prior experience is necessary. Through tireless, patient explanations and many interesting practical examples, you'll learn the fundamentals of building dynamic and live web apps using microfrontends.</p><p>Each topic included in this course is added incrementally, to make sure that you have a solid foundation of knowledge. You'll find plenty of discussion added in to help you understand exactly when and where to use each aspect of microfrontends.</p><p>Below is a <strong><em>partial list </em></strong>of the topics you'll find in this course:</p><ul><li><p>Learn <strong>design patterns</strong> used by the largest companies in the world</p></li><li><p>Understand <strong>when to use</strong> microfrontends</p></li><li><p>Link multiple apps together using a <strong>tiered routing system</strong></p></li><li><p><strong>Scope CSS</strong> on your page to prevent cross-app contamination</p></li><li><p>Avoid sharing state between apps to <strong>promote isolation</strong></p></li><li><p><strong>Deploy each portion</strong> of your app independently to avoid production bugs</p></li><li><p>Scaffold a <strong>CI/CD&nbsp;pipeline</strong> to automate your release process</p></li><li><p>Utilize <strong>multiple front-end frameworks</strong> in the same app</p></li><li><p>Maximize performance by using <strong>module federation</strong></p></li></ul><p>I built this course to save you hundreds of hours of self study. I've put years of my own experience into this course to save you time. <strong>Sign up today</strong> and join me in mastering microfrontends.</p>",
+  "headline": "Build incredibly scalable apps with a microfrontend architecture",
+  "num_subscribers": 66312,
+  "num_cpe_credits": null,
+  "is_private": false,
+  "is_published": true,
+  "primary_category": {
+    "id": 288,
+    "title": "Desenvolvimento",
+    "title_cleaned": "development",
+    "url": "/courses/development/",
+    "icon_class": "udi udi-development",
+    "type": "category",
+    "channel_id": null,
+    "_class": "course_category"
+  },
+  "primary_subcategory": {
+    "id": 8,
+    "title": "Desenvolvimento Web",
+    "title_cleaned": "web-development",
+    "url": "/courses/development/web-development/",
+    "icon_class": "udi udi-development",
+    "type": "subcategory",
+    "channel_id": null,
+    "_class": "course_subcategory"
+  },
+  "is_in_user_subscription": false,
+  "instructional_level": "Todos os níveis",
+  "content_info": "9 horas no total",
+  "content_length_practice_test_questions": 0,
+  "organization_id": null,
+  "is_organization_only": false,
+  "is_cpe_compliant": false,
+  "cpe_field_of_study": null,
+  "cpe_program_level": null,
+  "is_owned_by_instructor_team": false,
+  "is_owner_terms_banned": false,
+  "content_length_video": 32259,
+  "prerequisites": ["Basic understanding of React"],
+  "objectives": [
+    "Use microfrontends to architect an app that dozens of teams can work on at the same time",
+    "Structure your apps to scale to millions of users",
+    "Understand how to divide a monolithic app into multiple sub-apps",
+    "Coordinate data exchanged between your microfrontends",
+    "Apply a production-style workflow with a full CI/CD pipeline",
+    "Deploy your microfrontends to Amazon Web Services with CloudFront",
+    "Isolate rules styling by applying CSS-scoping techniques",
+    "Judge whether microfrontends are an appropriate choice for your application"
+  ],
+  "target_audiences": ["Engineers looking to scale frontend apps"],
+  "course_has_labels": [
+    {
+      "_class": "course_has_label",
+      "id": 1253962,
+      "label": {
+        "_class": "course_label",
+        "id": 5884,
+        "title": "Desenvolvimento web de front-end",
+        "url": "/topic/front-end-web-development/",
+        "icon_class": "udi udi-line-star",
+        "type": "topic",
+        "display_name": "Front End Web Development"
+      },
+      "is_primary": true
+    },
+    {
+      "_class": "course_has_label",
+      "id": 1253964,
+      "label": {
+        "_class": "course_label",
+        "id": 7450,
+        "title": "React JS",
+        "url": "/topic/react/",
+        "icon_class": "udi udi-line-star",
+        "type": "topic",
+        "display_name": "React JS"
+      },
+      "is_primary": true
+    }
+  ],
+  "has_labs_in_course_prompt_setting": false,
+  "is_google_partner_course": false,
+  "is_approved": true,
+  "instructor_status": null,
+  "is_course_available_in_org": null
+}
